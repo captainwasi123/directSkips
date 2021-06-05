@@ -1,0 +1,2918 @@
+/*Font Family Used In Website*/
+/*Poppins (Integrated From Google Fonts Library)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+font-family:cooper-black;
+src: url("../fonts/cooper-black.ttf");
+}
+
+
+
+ body {
+ 	font-family: 'Poppins', sans-serif;
+ 	font-weight: 400;
+ }
+
+
+
+ body .container {
+ 	width: 98;
+ 	max-width: 2000px;
+ }
+
+ body img {
+ 	max-width: 100%;
+ }
+
+section , header , footer {
+    float: left;
+    width: 100%;
+}
+
+a {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.col-black {
+	color:black !important;
+}
+
+.col-white {
+	color:white !important;
+}
+
+.col-orange {
+	color:#eb7c32 !important;
+}
+
+.bg-orange {
+	background:#eb7c32 !important;
+}
+.m-b-10 {
+    margin-bottom: 10px !important
+}
+
+.m-b-20 {
+    margin-bottom: 20px !important
+}
+
+.m-b-30 {
+    margin-bottom: 30px !important
+}
+
+
+section.copyrights-sec {
+    padding: 15px 0px;
+}
+section.copyrights-sec span {
+    display: block;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}
+
+header {
+    padding: 10px 0px;
+}
+.logo {
+    float: left;
+}
+
+.navbar-custom {
+    float: right;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+
+.menu-item {
+    float: left;
+    margin-left: 30px;
+}
+.menu-item a {
+    color: black;
+    padding: 18px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+}
+
+footer {
+    background: #2b2b2b;
+    padding: 40px 0px 60px 0px;
+}
+.footer-about {
+    float: left;
+    width: 100%;
+}
+
+
+.footer-about h6 {
+    color: #8A8A8A;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    margin: 0px 0px 12px 0px;
+}
+
+.footer-about a img {
+    margin-bottom: 25px;
+}
+
+.footer-about h5 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    white-space: pre;
+    margin-left: -4px;
+}
+
+
+.footer-list {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.footer-list h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+}
+.footer-list ul {
+    padding: 0px;
+    list-style: none;
+}
+.footer-list ul li a {
+    color: #8A8A8A;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}
+.footer-list ul li {
+    margin-bottom: 8px;
+}
+
+.footer-list2 {
+    padding-left: 0px;
+    margin-left: -30px;
+}
+.footer-social {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.footer-social h5 {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.footer-social a img {
+    width: 130px;
+}
+
+.footer-list1 {
+	padding-left: 60px;
+}
+
+.menu-active a {
+    color: #eb7c32 !important;
+}
+
+
+section.home-banner {
+    background-image: url(../images/home-banner-bg.jpg);
+    background-size: cover;
+    padding: 180px 0px;
+    position: relative;
+}
+
+
+.banner-text {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.banner-text h3 {
+    color: white;
+    font-size: 55px;
+    font-family: cooper-black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 55px;
+    margin-bottom: 8px;
+}
+.banner-text h6 {
+    font-family: 'cooper-black';
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 1px;
+}
+
+.banner-text form {
+    max-width: 470px;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.banner-text form input {
+    width: 85%;
+    height: 57px;
+    font-family: 'cooper-black';
+    letter-spacing: 0.3px;
+    padding: 0px 10px;
+    color: black;
+    border:none;
+    float: left;
+}
+
+
+
+button.submit-btn1 {
+    position: absolute;
+    height: 57px;
+    border: none;
+    vertical-align: top;
+    width: 130px;
+    right: 0px;
+    top: 0px;
+    font-family: 'cooper-black';
+    background: #eb7c32;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.banner-text form input::placeholder {
+	color:black;
+}
+
+
+.info-text {
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.info-text p {
+    margin: 0px 0px 10px 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
+
+
+
+.navbar-handler {
+	display: none;
+}
+
+
+section.why-use-sec {
+    padding: 40px 0px;
+}
+.standing-image {
+    float: left;
+    width: 26%;
+    padding-left: 20px;
+}
+.use-info-text {
+    float: left;
+    width: 25%;
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+.truck-image {
+    float: left;
+    width: 30%;
+    padding: 5px 25px 0px 25px;
+}
+.points-list {
+    float: left;
+    width: 18%;
+    padding-top: 30px;
+}
+.whyuse-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.whyuse-head h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.use-info-text h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 8px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    margin-top: -5px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+
+.points-list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.points-list p img {
+    width: 30px;
+    vertical-align: top;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+
+
+
+.standing-image img {
+    max-width: 100%;
+    width: 100%;
+}
+.truck-image img {
+      max-width: 100%;
+    width: 100%;
+}
+
+.step-wrapper {
+    float: left;
+    width: 100%;
+    padding: 35px 20px;
+}
+
+
+.step-wrapper:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.step-head h4 b {
+    font-family: 'Poppins';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.step-head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid silver;
+    margin-bottom: 30px;
+    padding-bottom: 8px;
+}
+
+
+a.popup-icon1 {
+    background: #f9a825;
+    color: white;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid #e96705;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.step-data {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.step-width1 {
+    max-width: 650px;
+    margin: auto;
+}
+
+
+.step-width2 {
+    max-width: 750px;
+    margin: auto;
+}
+
+
+.step-width3 {
+    max-width: 900px;
+    margin: auto;
+}
+
+.step-width4 {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+.form-field1 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 24%;
+    text-align: left;
+}
+
+.child-field1 {
+    width: 75%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.next-step {
+    text-align: right;
+    margin-top: 20px;
+}
+button.next-step-btn {
+    background: #eb7c32;
+    color: white;
+    border: none;
+    font-family: 'cooper-black';
+    font-size: 15px;
+    padding: 10px 26px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0px 0px;
+    width: 220px;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 50px 28px 50px;
+    line-height: 41px;
+    cursor: pointer;
+}
+
+.all-buttons label input {
+    display: none;
+}
+.all-buttons label.active-btn {
+    background: #eb7c32;
+    color: white;
+}
+
+.delivery-infos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.delivery-infos p {
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: black;
+}
+
+.form-field2 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 33%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.child-field2 {
+    width: 66%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+.step-width3 .row > div {
+    padding: 0px 25px;
+    margin-bottom: 25px;
+}
+.form-field3 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.child-field3 {
+    width: 84%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+
+.step-width3 textarea {
+    height: 140px !important;
+}
+
+.check-points {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.check-points p {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 25px;
+}
+
+
+.check-points p input {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    width: 20px;
+    height: 15px;
+}
+
+.check-points p b {
+    font-weight: 700;
+}
+
+.check-points p a {
+    font-weight: 400;
+    border-bottom: 1px solid;
+}
+
+.order-detail-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-details-content {
+    text-align: center;
+}
+.order-detail-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+.order-details-content p {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    margin-bottom: 23px;
+}
+.order-details-content p b {
+    font-family: 'cooper-black';
+}
+
+.order-details-content p b {
+    margin-right: 12px;
+    font-size: 17px;
+}
+hr.grey-line {
+    background: #c0c0c0;
+    margin: 35px 0px 35px 0px;
+    height: 3px;
+    width: 100%;
+    border: none;
+}
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+}
+input.postcode-field2 {
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+ 
+}
+
+.postcode-f label {
+    float: left;
+    margin-top: 8px;
+}
+
+.all-skip-sizes {
+    margin-bottom: 55px;
+}
+
+
+.skip-box {
+    float: left;
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.skip-box h4 {
+    background: #cacaca;
+}
+
+
+.skip-box h4 {
+    background: #cacaca;
+    margin: 0px;
+    font-family: 'cooper-black';
+    padding: 8px 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.skip-box img {
+    width: 80%;
+    margin: 15px 0px 20px 0px;
+}
+
+.skip-box p {
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+}
+
+.skip-box h6 {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin: 0px;
+}
+.skip-box h5 {
+    color: black;
+    margin-bottom: 16px;
+}
+
+.all-skip-sizes > div {
+    padding: 0px 15px !important;
+}
+
+.skip-box.active {
+    border: 1px solid #eb7c32;
+}
+
+.skip-box.active  h4 {
+    background: #eb7c32;
+    color:white;
+}
+
+button.next-step-btn:hover {
+    background:black;
+}
+
+ .skip-box label input {
+    display: none;
+}
+.skip-box label {
+    margin: 0px;
+    cursor: pointer;
+    display: block;
+}
+
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+}
+input.postcode-field2 {
+    width: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 15px;
+}
+
+
+.points-list h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 16px;
+    letter-spacing: 0.6px;
+}
+
+.points-list {
+    float: left;
+    width: 18%;
+    padding-top: 5px;
+}
+.points-list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.why-use-sec .row {
+    padding: 0px 10px;
+}
+.standing-image {
+    float: left;
+    width: 25%;
+    padding-left: 0px;
+}
+.use-info-text {
+    float: left;
+    width: 25%;
+    text-align: right;
+   padding:0px 15px;
+}
+.truck-image {
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+.points-list {
+    float: left;
+    width: 25%;
+    padding: 0px 15px;
+}
+.points-list h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 0.6px;
+    margin-top: -5px;
+}
+.modal-content1 p {
+    color: black;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+.modal-content1 p:nth-last-child(1) {
+    margin-bottom: 0px;
+} 
+button.modal-close1 {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background: #eb7c32;
+    border-radius: 100%;
+    color: white !important;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 0px !important;
+    z-index: 99999;
+    cursor: pointer !important;
+    font-size: 12px;
+}
+.modal-body {
+    padding: 0px;
+}
+
+ 
+
+.custom-modal1 .modal-content {
+    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2px solid #eb7c32;
+    border-radius: 4px;
+    padding: 30px 30px;
+    position: relative !important;
+    z-index: -999 !important;
+}
+
+
+.modal-content1 h5 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.modal-content1 h5:nth-child(1) {
+    margin-top: 0px;
+}
+.modal-dialog {
+    top: 50%;
+    margin:0px auto !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%) !important;
+}
+.form-field5 label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+
+.policy-head {
+    margin-bottom: 20px;
+}
+.policy-head h5 {
+    color: black;
+    font-size: 18px;
+ 
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+
+
+.policy-content {
+    margin-bottom: 35px;
+}
+.policy-content h5 {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
+.policy-content p {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.policy-content h4 {
+    color: black;
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+}
+.policy-content table thead tr th {
+    background: #eee;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 1px solid silver;
+}
+.policy-content table tbody tr td {
+    background: #f9f9f9;
+    color: black;
+    padding: 10px 10px;
+    letter-spacing: 0.3px;
+    border: 1px solid silver;
+}
+.policy-content table thead tr th:nth-child(3) {
+    width: 25%;
+}
+
+
+
+ul.terms-list1 {
+    padding: 0px;
+    list-style: none;
+    padding-left: 15px;
+}
+
+ul.terms-list1 li {
+    color: black;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    position: relative;
+}
+ul.terms-list1 li b {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+
+.banner-text form input::placeholder {
+color:grey;
+}
+
+
+.order-details-content p b {
+    display: inline-block;
+    width: 45%;
+    margin: 0px !important;
+    vertical-align: top !important;
+    text-align: left;
+}
+
+
+.order-details-content p span {
+    display: inline-block;
+    width: 53%;
+    margin: 0px !important;
+    vertical-align: top !important;
+    text-align: left;
+}
+
+section.why-use-sec .container {
+  width: 99%;
+  max-width: 2000px;
+}
+
+.points-list h4 span {
+    display: block;
+}
+
+.points-list h4 span:nth-child(2) {
+    font-size: 30px;
+}
+.points-list p:nth-last-child(1) {
+	margin-bottom: 0px; 
+}
+
+p.custom-margin-1 {
+    margin-left: -3px !important;
+}
+
+ 
+.use-info-text p:nth-last-child(1) {
+    margin-bottom: 0px;
+}
+
+
+/*Media Queries Of Website*/
+
+
+
+
+ @media screen and (max-width:6000px) and (min-width:2600px) { 
+
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 27px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.points-list p {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+.points-list p img {
+    width: 45px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+ }
+
+
+
+ @media screen and (max-width:2601px) and (min-width:2500px) { 
+section.why-use-sec .container {
+    width: 99%;
+    max-width: 100%;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.points-list p {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.points-list p img {
+    width: 55px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+ }
+
+
+
+
+
+ @media screen and (max-width:2200px) and (min-width:2001px) { 
+
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 19px;
+}
+.points-list p {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 41px;
+}
+ }
+
+
+
+ 
+ @media screen and (max-width:2000px) and (min-width:1801px) { 
+
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+}
+.points-list p {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+}
+.points-list p img {
+    width: 42px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+ }
+
+
+@media screen and (max-width:1800px) and (min-width:1650px) { 
+
+
+ 
+ .use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 22px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+.points-list p {
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.points-list p img {
+    width: 42px;
+    vertical-align: top;
+    margin-top: -5px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+}
+
+
+@media screen and (max-width:1651px) and (min-width:1595px) { 
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 20px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+.points-list p {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+}
+
+
+@media screen and (max-width:1596px) and (min-width:1501px) { 
+
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 19px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+
+.points-list p {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.points-list p img {
+    width: 30px;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-left: 5px;
+    position: absolute;
+}
+}
+
+@media screen and (max-width:1500px) and (min-width:1450px) { 
+
+.points-list p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+}
+
+@media screen and (max-width:1451px) and (min-width:1400px) { 
+
+.points-list p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 17px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 13px;
+}
+}
+
+
+
+@media screen and (max-width:1399px) and (min-width:1360px) { 
+
+.points-list p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;
+}
+}
+
+
+
+@media screen and (max-width:1280px) and (min-width:1150px) { 
+.points-list {
+    float: left;
+    width: 25%;
+    padding-top: 0px;
+}
+.points-list p {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    letter-spacing: -0.2px;
+}
+.points-list p img {
+    width: 26px;
+    vertical-align: top;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 15px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 11px;
+}
+}
+
+
+@media screen and (max-width:1030px) and (min-width:1023px) { 
+
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+.points-list p {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+}
+
+
+
+/*Small Laptops*/
+@media screen and (max-width:1149px) and (min-width:768px) { 
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 11px;
+}
+input.postcode-field2 {
+    width: 60px;
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+    float: left;
+}
+	.menu-item {
+    float: left;
+    margin-left: 20px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0px 0px;
+    width: 260px;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 30px 28px 30px;
+    line-height: 41px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.all-skip-sizes > div {
+    padding: 0px 10px !important;
+}
+.standing-image, .truck-image {
+    float: left;
+    width: 50%;
+    padding: 0px 0px 0px 20px !important;
+}
+.use-info-text {
+    float: left;
+    width: 50%;
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 30px;
+}
+.points-list {
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.footer-about h5 {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    white-space: normal;
+    margin-left: 0px;
+}
+.footer-list h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+}
+.form-field2 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 29%;
+    text-align: left;
+    vertical-align: top;
+}
+.child-field2 {
+    width: 65%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+.form-field1 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 28%;
+    text-align: left;
+}
+
+.child-field1 {
+    width: 70%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.truck-image {
+    margin-top: 40px;
+}
+.points-list h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 0.6px;
+}
+.form-field5 label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+}
+
+
+@media screen and (max-width:800px) and (min-width:768px) { 
+
+.points-list p {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+
+}
+
+
+/*Tablet Devices*/
+@media screen and (max-width:767px) and (min-width:520px) { 
+.footer-list {
+    float: left;
+    width: 100%;
+    padding-left: 0px !important;
+    padding-top: 40px;
+    margin-left: 0px !important;
+}
+.footer-list h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+
+.footer-about h6  , .footer-about h5 , .footer-list ul li a {
+	font-size: 14px;
+}
+.footer-social {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+section.copyrights-sec span {
+    display: block;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    line-height: 18px;
+}
+section.home-banner {
+    padding: 120px 0px 180px 0px;
+    position: relative;
+ 
+}
+.info-text p {
+    margin: 0px 0px 10px 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.banner-text h3 {
+    color: white;
+    font-size: 40px;
+    font-family: cooper-black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 42px;
+    margin-bottom: 10px;
+}
+.banner-text h6 {
+    font-family: 'cooper-black';
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 1px;
+}
+.banner-text form input, button.submit-btn1 {
+    height: 48px;
+    font-size: 14px;
+}
+.footer-about a img {
+    margin-bottom: 25px;
+    width: 210px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+}
+.menu-item {
+    float: left;
+    margin-left: 0px;
+    width: 100%;
+    text-align: right;
+}
+.menu-item a {
+ 
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 6px;
+    display: none;
+}
+.navbar-handler {
+    display: block;
+    float: right;
+    background: #ed7c38;
+    padding: 6px 5px;
+    margin-top: 18px;
+}
+.navbar-handler img {
+    width: 26px;
+}
+.banner-text form {
+    max-width: 400px;
+}
+.whyuse-head h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+.standing-image {
+    float: left;
+    width: 100%;
+}
+.standing-image img {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.use-info-text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    width: 100%;
+    text-align: justify;
+}
+.truck-image {
+    float: left;
+    width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+.points-list {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+}
+.truck-image img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.step-head h4 b {
+    font-family: 'Poppins';
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: block;
+}
+
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.step-width1 , .step-width2 , .step-width3 , .step-width4 {
+    width: 100%;
+}
+.form-field1 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 26%;
+    text-align: left;
+}
+.child-field1 {
+    width: 70%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0px 0px;
+    width: 200px;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 40px 20px 40px;
+}
+ 
+.child-field3 {
+    width: 66%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+    float: right;
+}
+.form-field3 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 22%;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+}
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    margin-right: 0px;
+}
+.order-detail-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.order-details-content p {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    margin-bottom: 18px;
+}
+.modal {
+    padding: 0px 20px !important;
+}
+.use-info-text h4 , .points-list h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+.use-info-text , .points-list {
+	padding-top: 20px;
+}
+
+.navbar-custom {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    background: white !important;
+    width: 200px !important;
+    z-index: 9999;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 5px;
+}
+.menu-item a {
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    display: block;
+    color: #eb7c32;
+    padding: 12px 15px;
+    border-bottom: 1px solid silver;
+}
+.menu-active a {
+    background: #eb7c32;
+    color: white !important;
+}
+.whyuse-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.points-list h4 span {
+    display: block;
+}
+section.why-use-sec {
+    padding: 30px 0px 20px 0px;
+}
+.form-field5 label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.order-details-content p span {
+    display: inline-block;
+    width: 52%;
+    margin: 0px !important;
+    vertical-align: top !important;
+    text-align: left;
+}
+.points-list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    max-width: 225px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 24px;
+    position: relative;
+}
+.points-list p img {
+    width: 26px;
+    vertical-align: top;
+    margin-top: -2px;
+    margin-left: 5px;
+    position: absolute;
+}
+}
+
+
+
+
+/*Mobile Devices*/
+@media screen and (max-width:519px) and (min-width:351px) { 
+
+
+
+.footer-list {
+    float: left;
+    width: 100%;
+    padding-left: 0px !important;
+    padding-top: 40px;
+    margin-left: 0px !important;
+}
+.footer-list h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+
+.footer-about h6  , .footer-about h5 , .footer-list ul li a {
+	font-size: 14px;
+}
+.footer-social {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+section.copyrights-sec span {
+    display: block;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    line-height: 18px;
+}
+section.home-banner {
+    padding: 100px 0px 180px 0px;
+    position: relative;
+}
+.banner-text h3 {
+    color: white;
+    font-size: 32px;
+    font-family: cooper-black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.banner-text h6 {
+    font-family: 'cooper-black';
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: -90px;
+}
+.banner-text form input, button.submit-btn1 {
+    height: 48px;
+    font-size: 14px;
+}
+.footer-about a img {
+    margin-bottom: 25px;
+    width: 210px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+}
+.menu-item {
+    float: left;
+    margin-left: 0px;
+    width: 100%;
+    text-align: right;
+}
+.menu-item a {
+ 
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 6px;
+    display: none;
+}
+.navbar-handler {
+    display: block;
+    float: right;
+    background: #ed7c38;
+    padding: 6px 5px;
+    margin-top: 18px;
+}
+.navbar-handler img {
+    width: 26px;
+}
+.whyuse-head h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+.standing-image {
+    float: left;
+    width: 100%;
+}
+.standing-image img {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.use-info-text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    width: 100%;
+}
+.truck-image {
+    float: left;
+    width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+.points-list {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+}
+.truck-image img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.step-head h4 b {
+    font-family: 'Poppins';
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: block;
+}
+
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.step-width1 , .step-width2 , .step-width3 , .step-width4 {
+    width: 100%;
+}
+.form-field1 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+}
+.child-field1 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 0px 20px 0px;
+}
+ 
+.child-field3 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+    float: none;
+}
+.form-field3 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    margin-bottom: 5px;
+}
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    margin-right: 0px;
+}
+.order-detail-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.order-details-content p {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    margin-bottom: 18px;
+}
+.skip-box {
+    float: none;
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: white;
+    max-width: 250px;
+    margin: auto;
+}
+.form-field2 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+.child-field2 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+input.postcode-field1, input.postcode-field2 {
+    float: none !important;
+}
+.postcode-f {
+    text-align: left !important;
+}
+input.postcode-field1 {
+ 
+    margin-left: 0px;
+    margin-right: 15px !important;
+}
+.step-wrapper {
+    float: left;
+    width: 100%;
+    padding: 35px 5px;
+}
+.check-points p {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 25px;
+}
+.all-skip-sizes {
+    margin-bottom: 30px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.8px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+}
+.skip-box p {
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.skip-box h6 {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin: 0px;
+}
+.skip-box h5 {
+    color: black;
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+.banner-text h6 span {
+    display: block;
+}
+.home-banner .container {
+    width: 100%;
+    padding: 0px !important;
+    max-width: 100% !important;
+}
+.banner-text form {
+    max-width: 470px;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0px 10px;
+    top: -40px;
+}
+.info-text p {
+    margin: 0px 0px 10px 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    padding: 0px 10px;
+}
+section.home-banner {
+    padding: 100px 0px 180px 0px;
+    position: relative;
+ 
+}
+button.submit-btn1 {
+    right: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+.banner-text form input[type="text"] {
+    border-radius: 5px 0px 0px 5px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 10px;
+}
+.order-details-content p b {
+    margin-right: 0px;
+    font-size: 16px;
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.modal {
+    padding: 0px 20px !important;
+}
+.use-info-text h4 {
+	text-align: center;
+}
+.use-info-text , .points-list {
+	padding-top: 20px;
+}
+
+.navbar-custom {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    background: white !important;
+    width: 200px !important;
+    z-index: 9999;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 5px;
+}
+.menu-item a {
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    display: block;
+    color: #eb7c32;
+    padding: 12px 15px;
+    border-bottom: 1px solid silver;
+}
+.menu-active a {
+    background: #eb7c32;
+    color: white !important;
+}
+.whyuse-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}.points-list h4 span {
+    display: block;
+}
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    position: relative;
+}
+
+a.popup-icon1 {
+    background: #f9a825;
+    color: white;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid #e96705;
+    margin-left: 5px;
+    margin-top: -3px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+section.mob-banner-off {
+    display: none;
+}
+.info-text p span {
+    display: none;
+}
+.info-text p {
+ 
+    text-align: center;
+}
+section.why-use-sec {
+    padding: 40px 0px 30px 0px;
+}
+.points-list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    max-width: 255px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 24px;
+    position: relative;
+}
+.points-list p img {
+    width: 26px;
+    vertical-align: top;
+    margin-top: -2px;
+    margin-left: 5px;
+    position: absolute;
+}
+.order-details-content {
+    text-align: left;
+}
+.order-detail-head {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.order-details-content p b {
+	width: 100%;
+}
+.order-details-content p span {
+	width: 100%;
+}
+.use-info-text h4 , .points-list h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+p.custom-margin-1 {
+    margin-left: 0px !important;
+}
+.step-i-icon-1 a.popup-icon1 {
+    position: static;
+}
+}
+
+
+
+
+
+
+
+
+
+/*Iphone 4 & 5 Queries*/
+
+
+/*Mobile Devices*/
+@media screen and (max-width:350px) and (min-width:300px) { 
+.points-list h4 span {
+    display: block;
+}
+.footer-list {
+    float: left;
+    width: 100%;
+    padding-left: 0px !important;
+    padding-top: 40px;
+    margin-left: 0px !important;
+}
+.footer-list h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 18px;
+}
+
+.footer-about h6  , .footer-about h5 , .footer-list ul li a {
+	font-size: 14px;
+}
+.footer-social {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+section.copyrights-sec span {
+    display: block;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    line-height: 18px;
+}
+section.home-banner {
+    padding: 100px 0px 180px 0px;
+    position: relative;
+}
+.banner-text h3 {
+    color: white;
+    font-size: 32px;
+    font-family: cooper-black;
+    letter-spacing: 1px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.banner-text h6 {
+    font-family: 'cooper-black';
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 1px;
+    bottom: -150px;
+    position: relative;
+}
+.banner-text form input, button.submit-btn1 {
+    height: 48px;
+    font-size: 14px;
+}
+.footer-about a img {
+    margin-bottom: 25px;
+    width: 210px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+}
+.menu-item {
+    float: left;
+    margin-left: 0px;
+    width: 100%;
+    text-align: right;
+}
+.menu-item a {
+ 
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+}
+.navbar-custom {
+    float: left;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 6px;
+    display: none;
+}
+.navbar-handler {
+    display: block;
+    float: right;
+    background: #ed7c38;
+    padding: 6px 5px;
+    margin-top: 18px;
+}
+.navbar-handler img {
+    width: 26px;
+}
+.whyuse-head h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+.standing-image {
+    float: left;
+    width: 100%;
+}
+.standing-image img {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.use-info-text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    width: 100%;
+}
+.truck-image {
+    float: left;
+    width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+.points-list {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+}
+.truck-image img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.step-head h4 b {
+    font-family: 'Poppins';
+    position: static;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: block;
+}
+
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.step-width1 , .step-width2 , .step-width3 , .step-width4 {
+    width: 100%;
+}
+.form-field1 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+}
+.child-field1 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.3px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 0px 20px 0px;
+}
+ 
+.child-field3 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+    float: none;
+}
+.form-field3 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    float: left;
+    margin-bottom: 5px;
+}
+input.postcode-field1 {
+    width: 100px;
+    display: inline-block;
+    margin-right: 0px;
+}
+.order-detail-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.order-details-content p {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    margin-bottom: 18px;
+}
+.skip-box {
+    float: none;
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background: white;
+    max-width: 250px;
+    margin: auto;
+}
+.form-field2 label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font-family: 'cooper-black';
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 5px;
+}
+
+.child-field2 {
+    width: 100%;
+    height: 48px;
+    background: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: #f2f2f2;
+}
+input.postcode-field1, input.postcode-field2 {
+    float: none !important;
+}
+.postcode-f {
+    text-align: left !important;
+}
+input.postcode-field1 {
+ 
+    margin-left: 0px;
+    margin-right: 15px !important;
+}
+.step-wrapper {
+    float: left;
+    width: 100%;
+    padding: 35px 5px;
+}
+.check-points p {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 25px;
+}
+.all-skip-sizes {
+    margin-bottom: 30px;
+}
+button.submit-btn1 {
+    position: static;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.banner-text form input[type="text"] {
+    width: 100%;
+    border-radius: 5px;
+}
+.all-buttons label {
+    background: #d7d7d7;
+    border: none;
+    color: black;
+    letter-spacing: 0.8px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 42px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'cooper-black';
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+}
+.skip-box p {
+    letter-spacing: 0.3px;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.skip-box h6 {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin: 0px;
+}
+.skip-box h5 {
+    color: black;
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+.banner-text h6 span {
+    display: block;
+}
+.home-banner .container {
+    width: 100%;
+    padding: 0px !important;
+    max-width: 100% !important;
+}
+.banner-text form {
+    max-width: 470px;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0px 10px;
+    top: -40px;
+}
+.info-text p {
+    margin: 0px 0px 10px 0px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    padding: 0px 10px;
+}
+section.home-banner {
+    padding: 100px 0px 180px 0px;
+    position: relative;
+ 
+}
+ 
+ .use-info-text p {
+    color: black;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    float: right;
+    width: 100%;
+    text-align: justify;
+    padding: 0px 10px;
+}
+.order-details-content p b {
+    margin-right: 0px;
+    font-size: 16px;
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.modal {
+    padding: 0px 20px !important;
+}
+.use-info-text h4 {
+	text-align: center;
+}
+.use-info-text , .points-list {
+	padding-top: 20px;
+}
+
+
+.navbar-custom {
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    background: white !important;
+    width: 200px !important;
+    z-index: 9999;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 5px;
+}
+.menu-item a {
+    padding: 8px 0px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    display: block;
+    color: #eb7c32;
+    padding: 12px 15px;
+    border-bottom: 1px solid silver;
+}
+.menu-active a {
+    background: #eb7c32;
+    color: white !important;
+}
+.whyuse-head {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+section.why-use-sec {
+    padding: 30px 0px 20px 0px;
+}
+
+.step-head h4 {
+    color: black;
+    font-family: 'cooper-black';
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    position: relative;
+}
+
+a.popup-icon1 {
+    background: #f9a825;
+    color: white;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid #e96705;
+    margin-left: 5px;
+    margin-top: -3px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+section.mob-banner-off {
+    display: none;
+}
+.info-text p span {
+    display: none;
+}
+.points-list p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    max-width: 225px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 24px;
+    position: relative;
+}
+.points-list p img {
+    width: 26px;
+    vertical-align: top;
+    margin-top: -2px;
+    margin-left: 5px;
+    position: absolute;
+}
+.order-details-content {
+    text-align: left;
+}
+.order-detail-head {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.order-details-content p b {
+	width: 100%;
+}
+.order-details-content p span {
+	width: 100%;
+}
+.use-info-text h4 , .points-list h4 {
+    text-align: center;
+    margin-top: 6px;
+}
+.points-list h4 span:nth-child(2) {
+    font-size: 25px;
+}
+p.custom-margin-1 {
+    margin-left: 0px !important;
+}
+.step-i-icon-1 a.popup-icon1 {
+    position: static;
+}
+}

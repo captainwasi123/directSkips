@@ -39,66 +39,87 @@ use Illuminate\Support\Facades\Route;
 		Route::get('/response/postalcode/{val}/{type}', 'responseController@postalcodeCheck');
 		Route::get('/response/pricing/{type}/{postal}', 'responseController@pricingCheck');
 
+	//New Index
+	Route::post('/get', 'responseController@get_postcode')->name('get.postalcode');
+	Route::get('/book_now', 'responseController@book_now')->name('book_now');
 
+	Route::prefix('book')->group(function(){
 
+		Route::get('step_1', 'responseController@step_1');
+		Route::get('step_2/{postcode}/{service_type}', 'responseController@step_2');
+	});
 
 
 
 
 // Admin Routes
 
-	//Order Management
-
-		Route::get('/admin/orders/orders', 'orderController@orders'); 
-		Route::get('/admin/orders/booked', 'orderController@booked');
-		Route::get('/admin/orders/delivered', 'orderController@delivered');
-		Route::get('/admin/orders/collected', 'orderController@collected');
-		Route::get('/admin/orders/archive', 'orderController@archive');
-		Route::get('/admin/orders/status/{status}/{id}', 'orderController@changeStatus');
-		Route::get('/admin/orders/delete/{id}', 'orderController@deleteOrder');
-		
-		Route::post('/admin/orders/supplier', 'orderController@addSupplier');
-	
+	Route::prefix('admin')->group(function(){
 	// Authentication
 
-		Route::get('/admin', 'adminController@index');
-		Route::get('/admin/login', 'adminController@login');
-		Route::get('/admin/logout', 'adminController@logout');
+		Route::get('/', 'adminController@index');
+		Route::get('login', 'adminController@login');
+		Route::get('logout', 'adminController@logout');
 
-		Route::post('/admin/login', 'adminController@loginAttempt');
+		Route::post('login', 'adminController@loginAttempt');
+
+	//Order Management
+
+		Route::prefix('orders')->group(function(){
+			Route::get('orders', 'orderController@orders'); 
+			Route::get('booked', 'orderController@booked');
+			Route::get('delivered', 'orderController@delivered');
+			Route::get('collected', 'orderController@collected');
+			Route::get('archive', 'orderController@archive');
+			Route::get('status/{status}/{id}', 'orderController@changeStatus');
+			Route::get('delete/{id}', 'orderController@deleteOrder');
+			
+			Route::post('supplier', 'orderController@addSupplier');
+		});
 
 	// Settings
 
 		// Counties
-			Route::get('/admin/counties', 'adminSettingController@counties');
-			Route::get('/admin/counties/delete/{id}', 'adminSettingController@countiesDelete');
-			Route::post('/admin/counties/add', 'adminSettingController@countiesAdd');
+			Route::prefix('counties')->group(function(){
 
-		//Postal Code
-			Route::get('/admin/counties/postalcode/{id}', 'adminSettingController@countiesPostalCode');
-			Route::get('/admin/counties/postalcode/delete/{id}', 'adminSettingController@countiesPostalCodeDelete');
-			Route::post('/admin/counties/postalcode/add', 'adminSettingController@countiesPostalCodeAdd');
+				Route::get('/', 'adminSettingController@counties');
+				Route::get('delete/{id}', 'adminSettingController@countiesDelete');
+				Route::post('add', 'adminSettingController@countiesAdd');
+				
+				//Postal Code
+					Route::prefix('postalcode')->group(function(){
+						Route::get('/{id}', 'adminSettingController@countiesPostalCode');
+						Route::get('delete/{id}', 'adminSettingController@countiesPostalCodeDelete');
+						Route::post('add', 'adminSettingController@countiesPostalCodeAdd');
+					});
 
-		//Pricing
-			Route::get('/admin/counties/pricing/{id}', 'adminSettingController@pricing');
-			Route::post('/admin/counties/pricing/add', 'adminSettingController@pricingAdd');
+				//Pricing
+					Route::prefix('pricing')->group(function(){
+						Route::get('/{id}', 'adminSettingController@pricing');
+						Route::post('add', 'adminSettingController@pricingAdd');
+					});
+			});
 
-		// Service Type
-			Route::get('/admin/settings/type', 'adminSettingController@serviceType');
-			Route::get('/admin/settings/type/delete/{id}', 'adminSettingController@serviceTypeDelete');
+			Route::prefix('settings')->group(function(){
 
-			Route::post('/admin/settings/type/add', 'adminSettingController@serviceTypeAdd');
-		
-		// VAT Setup
-			Route::get('/admin/settings/VAT', 'adminSettingController@vatSetup');
-			Route::post('/admin/settings/VAT/update', 'adminSettingController@vatSetupUpdate');
+				// Service Type
+					Route::get('type', 'adminSettingController@serviceType');
+					Route::get('type/delete/{id}', 'adminSettingController@serviceTypeDelete');
 
-		// Holidays
-			Route::get('/admin/settings/holiday', 'adminSettingController@holiday');
-			Route::get('/admin/settings/holiday/delete/{id}', 'adminSettingController@holidayDelete');
+					Route::post('type/add', 'adminSettingController@serviceTypeAdd');
+				
+				// VAT Setup
+					Route::get('VAT', 'adminSettingController@vatSetup');
+					Route::post('VAT/update', 'adminSettingController@vatSetupUpdate');
 
-			Route::post('/admin/settings/holiday/add', 'adminSettingController@holidayAdd');
+				// Holidays
+					Route::get('holiday', 'adminSettingController@holiday');
+					Route::get('holiday/delete/{id}', 'adminSettingController@holidayDelete');
 
-		// User Profile
-			Route::get('/admin/settings/profile', 'adminSettingController@userProfile');
-			Route::post('/admin/settings/profile/update', 'adminSettingController@userProfileUpdate');
+					Route::post('holiday/add', 'adminSettingController@holidayAdd');
+
+				// User Profile
+					Route::get('profile', 'adminSettingController@userProfile');
+					Route::post('profile/update', 'adminSettingController@userProfileUpdate');
+			});
+	});

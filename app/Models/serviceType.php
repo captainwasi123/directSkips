@@ -20,6 +20,6 @@ class serviceType extends Model
     
     
     public function orders(){
-        return $this->hasMany(orders::class, 'service_type', 'id')->where('status', '!=', '9');
+        return $this->hasMany(orders::class, 'service_type', 'id')->where('status', '!=', '9')->where('status', '!=', '8');
     }
 }

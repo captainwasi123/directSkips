@@ -13,12 +13,11 @@ use StripeClient;
 
 class webController extends Controller
 {
-    
     function index(){
         $holiday = array();
         $holiarr = array();
-	   	$type = serviceType::all();
-    	$holi = holiday::all();
+        $type = serviceType::all();
+        $holi = holiday::all();
         foreach ($holi as $key => $value) {
             $day = array();
             array_push($day, date('n', strtotime($value->holiday)));
@@ -31,12 +30,11 @@ class webController extends Controller
             
         }
         
-    	$curr = date('Y-m-d');
-    	$startDate = date('Y-m-d', strtotime("+1 day", strtotime($curr)));
-    	$sDate = $this->checkStartdate($holiarr, $startDate, 1);
-    	return view('web.index', ['type' => $type, 'holiday' => $holiday, 'startDate' => $sDate]);
+        $curr = date('Y-m-d');
+        $startDate = date('Y-m-d', strtotime("+1 day", strtotime($curr)));
+        $sDate = $this->checkStartdate($holiarr, $startDate, 1);
+        return view('web.indexnew', ['type' => $type, 'holiday' => $holiday, 'startDate' => $sDate]);
     }
-    
 
     function about(){
 

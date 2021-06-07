@@ -10,7 +10,7 @@
               <h6> <span> “With a Postcode and Click, </span> <span> We'll deliver a skip” </span> </h6>
               <form method="post" action="{{route('get.postalcode')}}">
                 @csrf
-                <input type="text" placeholder="Enter Your Postcode" name="postcode" value="{{session()->has('error') ? session()->get('error') : ''}}">
+                <input type="text" placeholder="Enter Your Postcode" name="postcode" value="{{session()->has('error') ? session()->get('error') : ''}}" id="main_postcode">
                 <button class="submit-btn1">Next Step</button>
               </form>
               @if(session()->has('error'))

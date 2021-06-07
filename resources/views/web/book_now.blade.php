@@ -33,7 +33,7 @@
                   <div class="step-width1">
                      <div class="form-field1 form-field5">
                         <label> PLEASE SELECT </label>
-                        <select class="child-field1" name="dropoff_type" id="f_dropoff">
+                        <select class="child-field1" name="dropoff_type" id="t_dropoff">
                            <option value="0">On Private Property</option>
                            <option value="1"> On a Public Road – License Required </option>
                         </select>

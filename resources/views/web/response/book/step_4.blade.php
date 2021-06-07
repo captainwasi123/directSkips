@@ -114,7 +114,7 @@
       <div class="col-md-6 col-lg-6 col-sm-12 col-12">
          <div class="form-field2">
             <label> County: </label>
-            <input type="" class="child-field2 inputfield" data-title="b_country" name="country">
+            <input type="" class="child-field2 inputfield" data-title="b_country" name="b_country">
          </div>
       </div>
       <div class="col-md-6 col-lg-6 col-sm-12 col-12">

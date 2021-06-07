@@ -80,7 +80,7 @@
 
     //Step 4
         $(document).on('click', '#next_4 button', function(){
-            var all = $(".inputfield").map(function() {
+            let all = $(".inputfield").map(function() {
                 if($(this).val() == ''){
                     $(this).css('background-color', '#ffe4e4');
                     return $(this).data('title');
@@ -88,7 +88,7 @@
                     $(this).css('background-color', '#f2f2f2');
                 }
             }).get();
-            if((all.length == 4 && $('.billing_address').is(':checked') == false)  || (all.length == 0 && $('.billing_address').is(':checked') == true)){
+            if((all.length == 4 && $('.billing_address').is(':checked') == false)  || (all.length == 4 && $('.billing_address').is(':checked') == true)){
                 if ($('#terms').is(':checked')) {
                     var formdata = getfields();
                     $('.page-loader').css({display:'block'});
@@ -107,6 +107,8 @@
                 } else {
                     alert('Please make sure you read and agree to 24/7 Direct Skips Ltd Terms and Conditions.');
                 }
+            }else{
+                console.log(all.length);
             }
         });
 
@@ -120,6 +122,9 @@
                 $('#billing_a_block').html('');
                 $('#billing_a_block').css({display:'none'});
             }
+
+            $('#steps_section .step-wrapper').slice(4).remove();
+            $('#next_4').css({display:'block'});
         });
 
         $(document).on('keyup', '.inputfield', function(){
@@ -129,6 +134,21 @@
 
 
 
+
+
+
+
+//Postcode validation
+$(document).on('keyup', '#main_postcode', function(){
+    var val = $(this).val();
+    var n = val.length;
+    if(n > 7){
+        var first = val.slice(0, 6);
+        var last = val.substr(val.length - 1);
+        $(this).val(first+last);
+    }
+    console.log(n);
+});
 
 
 

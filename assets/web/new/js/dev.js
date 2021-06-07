@@ -122,6 +122,11 @@
             }
         });
 
+        $(document).on('keyup', '.inputfield', function(){
+            $('#steps_section .step-wrapper').slice(4).remove();
+            $('#next_4').css({display:'block'});
+        });
+
 
 
 

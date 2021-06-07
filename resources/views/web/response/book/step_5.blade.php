@@ -11,10 +11,30 @@
             </div>
             <div class="order-details-content" style="max-width: 700px;margin:auto">
                <p> <b> Drop off Location:  </b> <span> (On Private Property) </span> </p>
-               <p> <b> Type of Waste Selected: </b> <span> General/Mixed Waste </span> </p>
-               <p> <b> Skip Size: </b> <span> 6 yd </span> </p>
-               <p> <b> Delivery Date/Collection Date: </b> <span> 07-05-2021 / 21-05-2021 </span> </p>
-               <p> <b> Total Price (including VAT @ 20%): </b> <span> £ 298.80 </span> </p>
+               <p> <b> Type of Waste Selected: </b> 
+                  <span>
+                     @php 
+                        $type_of_waste = explode('|', $data['service_type']);
+                     @endphp
+                     {{$type_of_waste[1]}}
+                  </span> 
+               </p>
+               <p> <b> Skip Size: </b> 
+                  <span>
+                     @php 
+                        $skip_size = explode('|', $data['skip_size']);
+                     @endphp
+                     {{$skip_size[0]}}
+                  </span> 
+               </p>
+               <p> <b> Delivery Date/Collection Date: </b> 
+                  <span> {{$data['delivery_date']}} / {{$data['collection_date']}} </span> 
+               </p>
+               <p> <b> Total Price (including VAT @ 20%): </b> 
+                  <span>
+                     {{'£ '.$skip_size[3]}}
+                  </span> 
+               </p>
             </div>
          </div>
          <hr class="grey-line">
@@ -27,55 +47,55 @@
                   <div class="row">
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> First Name:  </b> <span> 6 yd </span> </p>
+                           <p> <b> First Name:  </b> <span> {{$data['first_name']}} </span> </p>
                         </div>
                      </div>
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> Last Name:  </b> <span> ggff </span> </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-6 col-lg-6 col-sm-6 col-12">
-                        <div class="order-details-content">
-                           <p> <b> Email:  </b> <span> joj@.com </span> </p>
-                        </div>
-                     </div>
-                     <div class="col-md-6 col-lg-6 col-sm-6 col-12">
-                        <div class="order-details-content">
-                           <p> <b> Tel No:  </b> <span> 5611566 </span> </p>
+                           <p> <b> Last Name:  </b> <span> {{$data['last_name']}} </span> </p>
                         </div>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> Address:  </b> <span> dfs dfsfgsrf </span> </p>
+                           <p> <b> Email:  </b> <span> {{$data['email']}} </span> </p>
                         </div>
                      </div>
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> Address 2:  </b> <span> tjy uktjyhg </span> </p>
+                           <p> <b> Tel No:  </b> <span> {{$data['phone']}} </span> </p>
                         </div>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> County:  </b> <span>  eeettd </span> </p>
+                           <p> <b> Address:  </b> <span> {{$data['address']}} </span> </p>
                         </div>
                      </div>
                      <div class="col-md-6 col-lg-6 col-sm-6 col-12">
                         <div class="order-details-content">
-                           <p> <b> Postcode:  </b> <span> bh231 </span> </p>
+                           <p> <b> Address 2:  </b> <span> {{$data['city']}} </span> </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-6 col-lg-6 col-sm-6 col-12">
+                        <div class="order-details-content">
+                           <p> <b> County:  </b> <span>  {{$data['country']}} </span> </p>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-lg-6 col-sm-6 col-12">
+                        <div class="order-details-content">
+                           <p> <b> Postcode:  </b> <span> {{$data['t_postcode']}} {{$data['cust_postcode']}} </span> </p>
                         </div>
                      </div>
                   </div>
                   <div class="row">
                      <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                         <div class="order-details-content">
-                           <p class="custom-margin-1"> <b> Delivery Instructions:  </b> <span> Lorem ipsum d </span> </p>
+                           <p class="custom-margin-1"> <b> Delivery Instructions:  </b> <span> {{$data['comments']}} </span> </p>
                         </div>
                      </div>
                   </div>
@@ -85,16 +105,15 @@
                      <h4 class="col-orange text-left"> Different Billing Details </h4>
                   </div>
                   <div class="order-details-content">
-                     <p> <b> Address:  </b> <span> - </span> </p>
-                     <p> <b> Address 2: </b> <span> - </span> </p>
-                     <p> <b> Skip Size: </b> <span> - </span> </p>
-                     <p> <b> County: </b> <span> - </span> </p>
-                     <p> <b> Postcode: </b> <span> - </span> </p>
+                     <p> <b> Address:  </b> <span> {{empty($data['b_address']) ? '-' : $data['b_address']}} </span> </p>
+                     <p> <b> Address 2: </b> <span> {{empty($data['b_city']) ? '-' : $data['b_city']}} </span> </p>
+                     <p> <b> County: </b> <span> {{empty($data['b_country']) ? '-' : $data['b_country']}} </span> </p>
+                     <p> <b> Postcode: </b> <span> {{empty($data['b_postal_code']) ? '-' : $data['b_postal_code']}} </span> </p>
                   </div>
                </div>
             </div>
             <div class="next-step">
-               <button class="next-step-btn"> Pay </button>
+               <button type="submit" class="next-step-btn"> Pay </button>
             </div>
          </div>
       </div>

@@ -33,5 +33,6 @@
          @include('web.support.new.footer')
       <!-- Bootstrap Javascript -->
          @include('web.support.new.script')
+         @yield('addScript')
    </body>
 </html>

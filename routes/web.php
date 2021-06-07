@@ -47,6 +47,8 @@ use Illuminate\Support\Facades\Route;
 
 		Route::get('step_1', 'responseController@step_1');
 		Route::get('step_2/{postcode}/{service_type}', 'responseController@step_2');
+		Route::get('step_3', 'responseController@step_3');
+		Route::post('step_4', 'responseController@step_4');
 	});
 
 

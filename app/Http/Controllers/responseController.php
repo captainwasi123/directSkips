@@ -35,12 +35,19 @@ class responseController extends Controller
     function get_postcode(Request $request){
         $data = $request->all();
         $pc = $data['postcode'];
-        if(strlen($pc) < 4){
+        if(strlen($pc) < 3){
             return redirect()->back()->with('error', $pc);
         }else{
-            $fpc =substr($pc, 0, 4);
+            $fpc = strlen($pc) > 3 ? substr($pc, 0, 4) : substr($pc, 0, 3);
             $c = postalCode::where('postal_code', $fpc)->first();
             if(empty($c->id)){
+                $fpc =substr($pc, 0, 3);
+                $c = postalCode::where('postal_code', $fpc)->first();
+                if(empty($c->id)){
+                    return redirect('/')->with('error', $fpc);
+                }else{
+                    return redirect(route('book_now').'?postcode='.$fpc);
+                }
                 return redirect()->back()->with('error', $fpc);
             }else{
 
@@ -52,19 +59,75 @@ class responseController extends Controller
     function book_now(Request $request){
         $data = $request->all();
         $pc = $data['postcode'];
-        if(strlen($pc) < 4){
+        if(strlen($pc) < 3){
             return redirect('/')->with('error', $pc);
         }else{
-            $fpc =substr($pc, 0, 4);
+
+            $holiday = array();
+            $holiarr = array();
+            $type = serviceType::all();
+            $holi = holiday::all();
+            foreach ($holi as $key => $value) {
+                $day = array();
+                array_push($day, date('n', strtotime($value->holiday)));
+                array_push($day, date('j', strtotime($value->holiday)));
+                array_push($day, date('Y', strtotime($value->holiday)));
+                
+                array_push($holiday, $day);
+                
+                array_push($holiarr, $value->holiday);
+                
+            }
+            
+            $curr = date('Y-m-d');
+            $startDate = date('Y-m-d', strtotime("+1 day", strtotime($curr)));
+            $sDate = $this->checkStartdate($holiarr, $startDate, 1);
+
+
+            $fpc =strlen($pc) > 3 ? substr($pc, 0, 4) : substr($pc, 0, 3);
             $c = postalCode::where('postal_code', $fpc)->first();
             if(empty($c->id)){
-                return redirect('/')->with('error', $fpc);
+                $fpc =substr($pc, 0, 3);
+                $c = postalCode::where('postal_code', $fpc)->first();
+                if(empty($c->id)){
+                    return redirect('/')->with('error', $fpc);
+                }else{
+                    return view('web.book_now', ['holiday' => $holiday, 'startDate' => $sDate]);
+                }
             }else{
-                return view('web.book_now');
+                return view('web.book_now', ['holiday' => $holiday, 'startDate' => $sDate]);
             }
         }
     }
 
+
+    function checkStartdate(array $data, $startDate, $i){
+        
+        if(date('l', strtotime($startDate)) == 'Saturday' || date('l', strtotime($startDate)) == 'Sunday'){
+            
+            $val = date('Y-m-d', strtotime("+1 day", strtotime($startDate)));
+            return $this->checkStartdate($data, $val, $i);
+        }else{
+            $x = 0;
+            foreach ($data as $value) {
+                if($startDate == $value){
+                    $x = 1;
+                }  
+            }
+            if($x == 1){
+                $val = date('Y-m-d', strtotime("+1 day", strtotime($startDate)));
+                return $this->checkStartdate($data, $val, $i);
+            }else{
+                $val = date('Y-m-d', strtotime("+1 day", strtotime($startDate)));
+                if($i == 1){
+                    return $this->checkStartdate($data, $val, 2);
+                }else{
+                    return $startDate;
+                }
+            }
+        }
+    }
+    
 
 
     //Steps
@@ -81,6 +144,15 @@ class responseController extends Controller
 
         return view('web.response.book.step_3', ['pricing' => $pricing, 'vat' => $vat->vat]);
     }
+    function step_3(){
+
+        return view('web.response.book.step_4');
+    }
+    function step_4(Request $request){
+        $data = $request->all();
+
+        return view('web.response.book.step_5', ['data' => $data]);
+    }
 
 
 
@@ -88,5 +160,5 @@ class responseController extends Controller
 
 
 
-    
+
 }

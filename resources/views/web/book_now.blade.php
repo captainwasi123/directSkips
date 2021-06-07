@@ -21,11 +21,13 @@
    <!-- All Steps Forms Section Starts Here --> 
    <section class="order-detail-sec" id="steps_section">
       <form method="post" id="book_form">
+         @csrf
          <div class="step-wrapper">
             <div class="container">
                <div class="step-head">
                   <h4 class="step-i-icon-1"> <b class="col-orange"> STEP 01 </b> DROP OFF LOCATION <a  data-toggle="modal" data-target="#modal-type1" class="popup-icon1"> <i class="fa fa-info"> </i> </a> </h4>
-                  <input type="hidden" name="postcode" id="postcode" value="{{$_GET['postcode']}}">
+                  <input type="hidden" name="postcode" id="postcode" value="{{strtoupper($_GET['postcode'])}}">
+                  <input type="hidden" name="curr_date" id="curr_date" value="{{date('d-M-Y', strtotime($startDate))}}">
                </div>
                <div class="step-data">
                   <div class="step-width1">
@@ -43,7 +45,15 @@
                </div>
             </div>
          </div>
+      </form>
    </section>
    <!-- All Steps Forms Section Ends Here --> 
 
+@endsection
+@section('addScript')
+  <script type="text/javascript">
+   function unDates(){
+      return @json($holiday);
+   }
+  </script>
 @endsection

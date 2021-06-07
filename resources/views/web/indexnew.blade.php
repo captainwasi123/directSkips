@@ -54,8 +54,3 @@
       </section>
       <!-- Why Use Banner Section Ends Here -->
 @endsection
-@section('addScript')
-  <script type="text/javascript">
-    global unavailableDates = @json($holiday);
-  </script>
-@endsection

@@ -11,3 +11,5 @@
 <link href="{{URL::to('/assets/web/new')}}/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
 <!-- Jquery Library -->
 <script type="text/javascript" src="{{URL::to('/assets/web/new')}}/js/jquery-3.2.1.min.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">

@@ -1,6 +1,7 @@
  $(document).ready(function(){
 
     'use strict'
+    $( "#del_date" ).datepicker();
     var host = $("meta[name='host']").attr("content");
  	$(document).on('change', '#t_dropoff', function(){
         var val = $(this).val();
@@ -49,16 +50,76 @@
 
     //Step 3
         $(document).on('click', '#next_3 button', function(){
-            var postcode = $("#postcode").val();
-            var service_type = $("input[name='service_type']:checked").val();
-            
-            var type = service_type.split('|');
-            $('.page-loader').css({display:'block'});
-            $.get( host+"/book/step_2/"+postcode+"/"+type[0], function( data ) {
-                $('#next_2').css({display:'none'});
-                $('#steps_section').append(data);
-                $('.page-loader').css({display:'none'});
-            });
+            var del_date = $("#del_date").val();
+            var col_date = $("#col_date").val();
+            if(del_date == '' || col_date == ''){
+                alert("Please select Delivery/Collection Date.");
+            }else{
+                var postcode = $("#postcode").val();
+                $('.page-loader').css({display:'block'});
+                $.get( host+"/book/step_3", function( data ) {
+                    $('#next_3').css({display:'none'});
+                    $('#steps_section').append(data);
+                    $('.page-loader').css({display:'none'});
+                    $('#t_postcode').val(postcode);
+                });
+            }
+        });
+
+        $(document).on('change', '.step3_check', function(){
+
+            $('#steps_section .step-wrapper').slice(3).remove();
+            $('#next_3').css({display:'block'});
+        });
+        $(document).on('click', '.skip-box', function(){
+            $('#steps_section .step-wrapper').slice(3).remove();
+            $('#next_3').css({display:'block'});
+        });
+    
+
+
+    //Step 4
+        $(document).on('click', '#next_4 button', function(){
+            var all = $(".inputfield").map(function() {
+                if($(this).val() == ''){
+                    $(this).css('background-color', '#ffe4e4');
+                    return $(this).data('title');
+                }else{
+                    $(this).css('background-color', '#f2f2f2');
+                }
+            }).get();
+            if((all.length == 4 && $('.billing_address').is(':checked') == false)  || (all.length == 0 && $('.billing_address').is(':checked') == true)){
+                if ($('#terms').is(':checked')) {
+                    var formdata = getfields();
+                    $('.page-loader').css({display:'block'});
+                    $.post({
+                        url: host+"/book/step_4", 
+                        data: formdata, 
+                        success: function( data ) {
+                            $('#next_4').css({display:'none'});
+                            $('#steps_section').append(data);
+                            $('.page-loader').css({display:'none'});
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    });
+                } else {
+                    alert('Please make sure you read and agree to 24/7 Direct Skips Ltd Terms and Conditions.');
+                }
+            }
+        });
+
+        $(document).on('change', '.billing_address', function() {
+            // this will contain a reference to the checkbox   
+            if (this.checked) {
+                var biling_sample = $('#billing_sample').html();
+                $('#billing_a_block').html(biling_sample);
+                $('#billing_a_block').css({display:'block'});
+            } else {
+                $('#billing_a_block').html('');
+                $('#billing_a_block').css({display:'none'});
+            }
         });
 
 
@@ -67,7 +128,66 @@
 
 
 
+//Date Picker
+$('body').on('focus',"#del_date", function(){
+    var curr_date = $("#curr_date").val();
+    $( "#del_date" ).datepicker({
+      minDate: new Date(curr_date),
+      beforeShowDay: nonWorkingDates,
+      firstDay: 1,
+      dateFormat: 'dd-mm-yy'
+    });
 });
+
+$(document).on('change', '#del_date', function(){
+    var deldate = $(this).val();
+    var max_date = new Date(deldate);
+    max_date.setDate(max_date.getDate()+14);
+    $("#col_date").datepicker("destroy"); 
+    $( "#col_date" ).datepicker({
+      minDate: deldate,
+      beforeShowDay: nonWorkingDates,
+      firstDay: 1,
+      dateFormat: 'dd-mm-yy'
+    }); 
+});
+
+
+});
+
+
+
+//Get form fields
+function getfields(){
+    var data = {
+        _token : $('input[name="_token"]').val(),
+        service_type : $('input[name="service_type"]:checked').val(),
+        skip_size : $('input[name="skip_size"]:checked').val(),
+        delivery_date : $('input[name="delivery_date"]').val(),
+        collection_date : $('input[name="collection_date"]').val(),
+        first_name : $('input[name="first_name"]').val(),
+        last_name : $('input[name="last_name"]').val(),
+        email : $('input[name="email"]').val(),
+        phone : $('input[name="phone"]').val(),
+        address : $('input[name="address"]').val(),
+        city : $('input[name="city"]').val(),
+        country : $('input[name="country"]').val(),
+        t_postcode : $('input[name="postcode"]').val(),
+        cust_postcode : $('input[name="cust_postcode"]').val(),
+        comments : $('textarea[name="comments"]').val(),
+        b_address : $('input[name="b_address"]').val(),
+        b_city : $('input[name="b_city"]').val(),
+        b_country : $('input[name="b_country"]').val(),
+        b_postal_code : $('input[name="b_postal_code"]').val(),
+        newsletter : $('input[name="newsletter"]').val(),
+
+    }
+
+    return data;
+}
+
+
+
 
 
 //Date Formating
@@ -82,7 +202,7 @@ function unavailable(date) {
 }
 function nonWorkingDates(date){
     var day = date.getDay(), Sunday = 0, Monday = 1, Tuesday = 2, Wednesday = 3, Thursday = 4, Friday = 5, Saturday = 6;
-    var closedDates = unavailableDates;
+    var closedDates = unDates;
     var closedDays = [[Saturday], [Sunday]];
     for (var i = 0; i < closedDays.length; i++) {
         if (day == closedDays[i][0]) {

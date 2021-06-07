@@ -35,9 +35,7 @@ $(document).ready(function(){
 
     $(document).on('click', '.skip-box', function(){
         $(".skip-box").removeClass("active");
-        $(".skip-box").find("input").removeAttr('checked');
         $(this).addClass("active");
-        $(this).find("input").attr('checked','checked');
     });
 
  });

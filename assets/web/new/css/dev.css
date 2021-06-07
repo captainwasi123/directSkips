@@ -62,3 +62,36 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%) !important;
 }
+
+.ui-state-disabled.undefined > span {
+    background-color: #fcb81c;
+    color: #940e0eeb;
+}
+.ui-state-disabled.undefined > span:hover {
+    cursor: no-drop;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    opacity: 1 !important;
+}
+.ui-datepicker-unselectable.ui-state-disabled.undefined.ui-datepicker-today .ui-state-default {
+    background-color: #fff93abf;
+    border-color: #8c8c31;
+    color: #000;
+}
+.postcode_prefix {
+    width: 70px ;
+}
+.postcode_full {
+    width: 76px !important;
+}
+ 
+.radio-btn {
+    left: 12%;
+    position: relative;
+}
+#billing_a_block {
+    display: none;
+    padding: 20px 10px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}

@@ -83,7 +83,7 @@
                <p> *Approximate skip dimensions – actual sizes will vary depending on the local supplier used to deliver the skip. </p>
             </div>
             <div class="next-step" id="next_3">
-               <button class="next-step-btn"> Next Step </button>
+               <button type="button" class="next-step-btn"> Next Step </button>
             </div>
          </div>
       </div>

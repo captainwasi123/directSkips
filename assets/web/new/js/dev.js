@@ -21,7 +21,7 @@
             $('.page-loader').css({display:'block'});
             $.get( host+"/book/step_1", function( data ) {
                 $('#next_1').css({display:'none'});
-                $('#steps_section').append(data);
+                $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
             });
         });
@@ -36,7 +36,7 @@
             $('.page-loader').css({display:'block'});
             $.get( host+"/book/step_2/"+postcode+"/"+type[0], function( data ) {
                 $('#next_2').css({display:'none'});
-                $('#steps_section').append(data);
+                $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
             });
         });
@@ -59,7 +59,7 @@
                 $('.page-loader').css({display:'block'});
                 $.get( host+"/book/step_3", function( data ) {
                     $('#next_3').css({display:'none'});
-                    $('#steps_section').append(data);
+                    $('#steps_section #book_form').append(data);
                     $('.page-loader').css({display:'none'});
                     $('#t_postcode').val(postcode);
                 });
@@ -97,7 +97,7 @@
                         data: formdata, 
                         success: function( data ) {
                             $('#next_4').css({display:'none'});
-                            $('#steps_section').append(data);
+                            $('#steps_section #book_form').append(data);
                             $('.page-loader').css({display:'none'});
                         },
                         error: function (error) {

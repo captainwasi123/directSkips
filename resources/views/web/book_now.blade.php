@@ -20,7 +20,7 @@
    <!-- Home Banner Section Ends Here -->
    <!-- All Steps Forms Section Starts Here --> 
    <section class="order-detail-sec" id="steps_section">
-      <form method="post" id="book_form">
+      <form method="post" action="{{URL::to('/order/submit')}}" id="book_form">
          @csrf
          <div class="step-wrapper">
             <div class="container">
@@ -33,7 +33,7 @@
                   <div class="step-width1">
                      <div class="form-field1 form-field5">
                         <label> PLEASE SELECT </label>
-                        <select class="child-field1" id="t_dropoff">
+                        <select class="child-field1" name="dropoff_type" id="f_dropoff">
                            <option value="0">On Private Property</option>
                            <option value="1"> On a Public Road – License Required </option>
                         </select>

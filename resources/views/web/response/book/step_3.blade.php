@@ -1,4 +1,10 @@
-
+@php 
+   $count = 0;
+   $count = empty($pricing->four_yd) ? $count : $count+1;
+   $count = empty($pricing->six_yd) ? $count : $count+1;
+   $count = empty($pricing->eight_yd) ? $count : $count+1;
+   $count = empty($pricing->twelve_yd) ? $count : $count+1;
+@endphp
 <div class="step-wrapper">
    <div class="container">
       <div class="step-head">
@@ -7,6 +13,9 @@
       <div class="step-data">
          <div class="step-width3">
             <div class="row all-skip-sizes">
+               @if($count == 2)
+                     <div class="col-md-3 col-lg-3 col-sm-6 col-12"></div>
+               @endif
                @if(!empty($pricing->four_yd))
                   @php $vat_1 = ($pricing->four_yd/100)*$vat; @endphp
                   <div class="col-md-3 col-lg-3 col-sm-6 col-12">
@@ -66,6 +75,9 @@
                         </label>
                      </div>
                   </div>
+               @endif
+               @if($count == 2)
+                     <div class="col-md-3 col-lg-3 col-sm-6 col-12"></div>
                @endif
             </div>
          </div>

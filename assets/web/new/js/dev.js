@@ -140,14 +140,13 @@
 
 //Postcode validation
 $(document).on('keyup', '#main_postcode', function(){
-    var val = $(this).val();
-    var n = val.length;
-    if(n > 7){
-        var first = val.slice(0, 6);
-        var last = val.substr(val.length - 1);
-        $(this).val(first+last);
-    }
-    console.log(n);
+    var val = filter_postcode($(this).val());
+    $(this).val(val);
+}).on('paste', function(e) {
+    setTimeout(function(){
+        var val = filter_postcode($('#main_postcode').val());
+        $('#main_postcode').val(val);
+    }, 0);
 });
 
 
@@ -180,6 +179,19 @@ $(document).on('change', '#del_date', function(){
 
 });
 
+//Filter Postcode
+function filter_postcode(value){
+    var val = value;
+    val = val.replace(/\s/g, '');
+    var n = val.length;
+    if(n > 7){
+        var first = val.slice(0, 6);
+        var last = val.substr(val.length - 1);
+        val = first+last;
+    }
+
+    return val;
+}
 
 
 //Get form fields

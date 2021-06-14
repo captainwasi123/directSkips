@@ -92,7 +92,7 @@ class webController extends Controller
         
         $data = orders::find($id);
         
-        /*$da = array(
+        $da = array(
                 'name'              =>  $data->details->first_name.' '.$data->details->last_name,
                 'email'             =>  $data->details->email,
                 'phone'             =>  $data->details->phone,
@@ -122,7 +122,7 @@ class webController extends Controller
         Mail::send('web.response.orderAdminMail', $da, function($message) use ($to_name, $to_email, $id) {
         $message->to('orders@247directskips.com','24/7 Direct Skips')->subject('Order Received | Order#: '.$id);
         $message->from('orders@247directskips.com','24/7 Direct Skips');
-        });*/
+        });
         
         
         return 'success';
@@ -173,7 +173,7 @@ class webController extends Controller
     function sendmail(){
         $id = '1003';
         $data = orders::where('id', $id)->first();
-        /*$da = array(
+        $da = array(
                     'name'              =>  $data->details->first_name.' '.$data->details->last_name,
                     'email'             =>  $data->details->email,
                     'phone'             =>  $data->details->phone,
@@ -198,7 +198,7 @@ class webController extends Controller
         Mail::send('web.response.orderCustMail', $da, function($message) use ($to_name, $to_email, $id) {
         $message->to($to_email, $to_name)->subject('Order Confirmation | Order#: '.$id);
         $message->from('orders@247directskips.com','24/7 Direct Skip');
-        });*/
+        });
     }
     
     

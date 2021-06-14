@@ -39,12 +39,10 @@ class orders extends Model
     	$od->city = $data['city'];
     	$od->country = $data['country'];
     	$od->comments = $data['comments'];
-    	if(!empty($data['billing_address'])){
-            $od->b_address = $data['b_address'];
-            $od->b_city = $data['b_city'];
-            $od->b_country = $data['b_country'];
-            $od->b_postal_code = $data['b_postal_code'];
-        }
+        $od->b_address = empty($data['b_address']) ? null : $data['b_address'];
+        $od->b_city = empty($data['b_city']) ? null : $data['b_city'];
+        $od->b_country = empty($data['b_country']) ? null : $data['b_country'];
+        $od->b_postal_code = empty($data['b_postal_code']) ? null : $data['b_postal_code'];
         $od->newsletter = empty($data['newsletter']) ? '0' : '1';
     	$od->save();
 

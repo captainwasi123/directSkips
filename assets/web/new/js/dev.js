@@ -88,7 +88,7 @@
                     $(this).css('background-color', '#f2f2f2');
                 }
             }).get();
-            if((all.length == 4 && $('.billing_address').is(':checked') == false)  || (all.length == 4 && $('.billing_address').is(':checked') == true)){
+            if((all.length == 0 && $('.billing_address').is(':checked') == false)  || (all.length == 0 && $('.billing_address').is(':checked') == true)){
                 if ($('#terms').is(':checked')) {
                     var formdata = getfields();
                     $('.page-loader').css({display:'block'});
@@ -115,7 +115,7 @@
         $(document).on('change', '.billing_address', function() {
             // this will contain a reference to the checkbox   
             if (this.checked) {
-                var biling_sample = $('#billing_sample').html();
+                var biling_sample = '<div class="row"><div class="col-md-6 col-lg-6 col-sm-12 col-12"><div class="form-field2"><label> Address: </label><input type="" class="child-field2 inputfield" data-title="Address" name="b_address"></div></div><div class="col-md-6 col-lg-6 col-sm-12 col-12"><div class="form-field2"><label> Address 2: </label><input type="" class="child-field2 inputfield" data-title="Address 2" name="b_city"></div></div></div><div class="row"><div class="col-md-6 col-lg-6 col-sm-12 col-12"><div class="form-field2"><label> County: </label><input type="" class="child-field2 inputfield" data-title="b_country" name="b_country"></div></div><div class="col-md-6 col-lg-6 col-sm-12 col-12"><div class="form-field2 postcode-f"><label> Post Code: </label><input type="text" class="child-field2 inputfield" data-title="Postcode" name="b_postal_code"></div></div></div>';
                 $('#billing_a_block').html(biling_sample);
                 $('#billing_a_block').css({display:'block'});
             } else {

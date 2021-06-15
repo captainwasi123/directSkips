@@ -55,6 +55,8 @@
                                                             <a class="dropdown-item changeState" href="javascript:void(0)" data-href="{{URL::to('/admin/orders/status/2/'.base64_encode($data->id))}}">Booked</a>
                                                             <a class="dropdown-item changeState" href="javascript:void(0)" data-href="{{URL::to('/admin/orders/status/3/'.base64_encode($data->id))}}">Delivered</a>
                                                             <a class="dropdown-item changeState" href="javascript:void(0)" data-href="{{URL::to('/admin/orders/status/4/'.base64_encode($data->id))}}">Collected</a>
+                                                            <hr style="margin: 0;">
+                                                            <a class="dropdown-item deleteOrder" href="javascript:void(0)" data-href="{{URL::to('/admin/orders/delete/'.base64_encode($data->id))}}" style="color:red;">Delete</a>
 	                                                      </div>
 	                                                    </div>
 	                                                </td>
@@ -256,6 +258,15 @@
 				$('.orderModal'+id).modal('show');
 				
 			});
+
+            
+            $(document).on('click', '.deleteOrder', function(){
+                var href = $(this).data('href');
+                if(confirm('Are you sure want to delete this.?')){
+                    window.location.href = href;
+                }
+                
+            });
 		});
 	</script>
 @endsection

@@ -443,4 +443,363 @@
          </div>
       </div>
 
+
+      <div class="modal fade custom-modal1" id="largeModal-6" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <div class="policy-head">
+            <h5> COOKIE POLICY <br/> 
+24/7 DIRECT SKIPS LTD </h5>
+        </div>
+        
+        <div class="policy-content">
+        <h5> Last updated on 12th April 2021 </h5>
+        <p> Our company is 24/7 Direct Skips Ltd. We have divided our Cookie Policy into three parts, firstly Consent, which explains how you can agree or refuse the use of cookies on your computer. Secondly, Disclosure, explains and informs you about the types of cookies we use. Thirdly, Opting Out describes how you can opt-out from consent and how you can contact us for information. </p>
+        </div>
+        
+        <div class="policy-content">
+            <h4> 1.  Consent  </h4>
+            <h5> Our Cookie Policy </h5>
+            <p> 24/7 Direct Skips Ltd may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website at <a target="_blank" href="https://www.247directskips.com/"> https://www.247directskips.com/ </a> It may include any other media form, media channel, mobile website, or mobile application related or connected to our website that will help and improve your experience.  </p>
+            <p> You have the option to consent to us placing cookies on your computer or opt-out or change your cookie settings. You may do this by clicking on the buttons and links on the cookie banner at the bottom of our home page. We will not place cookies on your computer unless you give us your consent. </p>
+            <p> For further information about what cookies are and what they do, please visit
+<a target="_blank" href="https://www.allaboutcookies.org/"> https://www.allaboutcookies.org/. </a> </p>
+<p> We may make changes to this Cookie Policy at any time and for any reason. We will let youknowabout any changes by updating the date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on our website.You do not have the right to receive specific notice of each such change or modification.  </p>
+<p> We encouraged you toreview this Cookie Policy from time to time to stay informed of updates. We will presume that you are aware of and have accepted the changes in any of our updated Cookie Policies by your continued use of our Website after the date we have posted the latest Cookie Policy.
+What are Cookies?
+ </p>
+<p> A “cookie” is a string of information that assigns you a unique identifier that we store on your computer.Your browser then provides that unique identifier to useeach time you submit a query to our website. We use cookies on our website to keep track of the services you have used. For example, record registration information, record your user preferences, keep you logged into our website, facilitate the purchase of courses, update membership lists, membership procedures and track the pages you visit. Cookies help us understand how our website is being used and improve your user experience.  </p>
+        </div>
+        
+        <div class="policy-content">
+            <h4> 2.  Disclosure </h4>
+            <h5> Cookie Types </h5>
+            <p> We may use the following types of cookies when you visit our Website, functionality cookies or preference cookies and session cookies. </p>
+            <p> You should be aware of the following types of cookies. </p>
+             <p> <b> a) Advertising Cookies </b> </p>
+              <p> Advertisers and ad servers may place cookies on your computer to display advertisements that might interest you. These cookies allow advertisers and ad servers to gather information about your visits to our website and other websites, alternate the ads sent to a specific computer, and track how often an ad has been viewed and by whom. These cookies are linked to a computer and do not gather any personal information about you.  </p>
+               <p> <b> b)  Analytics Cookies </b> </p>
+                <p> Analytics cookies monitor how users reached our website and how they interact with and move around once on our website. These cookies let us know what features on our website are working the best and what featurescan be improved.  </p>
+                 <p> <b> c)   Our Cookies </b> </p>
+                  <p> Our cookies are “first-party cookies” and can be either permanent or temporary. These are necessary cookies, without which our websitewill not work correctly or be able to provide certain features and functionalities. Some of these may be manually disabled in your browser but may affect the functionality of ourwebsite. </p>
+                   <p> <b> d) Personalisation Cookies </b> </p>
+                    <p> We use personalisation cookies to recognise repeat visitors to our website. We use these cookies to record your browsing history, the pages you have visited, and your settings and preferences each time you visit our website.  </p>
+                     <p> <b> e)  Security Cookies </b> </p>
+                      <p> Security cookies help identify and prevent security risks. We use these cookies to authenticate users and protect user data from unauthorised parties. </p>
+                       <p> <b> f)   Website Management Cookies </b> </p>
+                        <p> We use website management cookies to maintain your identity or session on our websiteor if you log off unexpectedly. Any information you enter is retained from page to page. It is not possible to turn these cookies off individually, but you can disable all cookies in your browser. </p>
+                         <p> <b>  g)   Third-Party Cookies </b> </p>
+                          <p> Third-party cookies may be placed on your computer when you visit our website by companies that run certain services we offer. These cookies allow third parties to gather and track certain information about you. These cookies can be manually disabled in your browser.  </p>
+        </div>
+        
+        
+        <div class="policy-content">
+            <h4> 3.  Opting Out </h4>
+            <h5> How Cookies are Controlled </h5>
+            <p> Most browsers accept cookies by default. However, you can remove or reject cookies in your browser's settings. Please be aware that such action could affect the availability and functionality of our website.  </p>
+            <p> For more information on how to control cookies, check your browser or device’s settings for how you can control or reject cookies, or visit the following links: </p>
+            <p> <a target="_blank" href="">  Apple Safari </a> </p>
+            <p> <a target="_blank" href=""> Google Chrome </a> </p>
+            <p> <a target="_blank" href=""> Microsoft Edge </a> </p>
+            <p> <a target="_blank" href=""> Microsoft Internet Explorer </a> </p>
+            <p> <a target="_blank" href=""> Mozilla Firefox </a> </p>
+            <p> <a target="_blank" href=""> Opera </a> </p>
+            <p> <a target="_blank" href=""> Android (Chrome) </a>  </p>
+            <p> <a target="_blank" href=""> Blackberry </a> </p>
+            <p> <a target="_blank" href=""> iPhone or iPad (Chrome) </a> </p>
+            <p> <a target="_blank" href=""> iPhone or iPad (Safari) </a> </p>
+            <p> Besides, you may optout of some third-party cookies by using the <a target="_blank" href="http://optout.networkadvertising.org/#!/"> Network Advertising Initiative’s Opt-Out Tool. </a>
+
+ </p>
+            
+            <h5> Other tracking technologies </h5>
+            <p> In addition to cookies, we may use web beacons, pixel tags, and other tracking technologies on our website to help customiseour website and improve your experience. A “web beacon” or “pixel tag” is a tiny object or image embedded in a web page or email. They are used to track the number of users who have visited particular pages and viewed emails and acquire other statistical data. They collect only a limited set of data, such as a cookie number, the time and the date of a page or email view, and a description of the page or email on which they reside. It is not possible to refuse web beacons and pixel tags. However, you can limit their use by controlling the cookies that interact with them.  </p>
+            <h5> Our Privacy Policy </h5>
+            <p> For more information about how we use information collected by cookies and other tracking technologies, please refer to our Privacy Policy on our website. We have placed a link in the footer on our home page. This Cookie Policy is part of our Privacy Policy. By using our website, you agree to be bound by this Cookie Policy and our Privacy Policy. </p>
+            <h5> Contact </h5>
+            <p> If you have questions or comments about this Cookie Policy, please contact us at:
+24/7 Direct Skips Ltd  </p>
+<p> Email: <a href="mailto:orders@247directskips.com"> orders@247directskips.com </a> </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+      <!-- Privacy Policy Popup Starts Here -->
+      <div class="modal fade custom-modal1" id="largeModal-7" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <div class="policy-head">
+            <h5> TERMS OF USE <br/> 
+24/7 DIRECT SKIPS LTD </h5>
+        </div>
+        
+        <div class="policy-content">
+        <h5> These Terms of Use were last updated on 15th April 2021 </h5>
+        <p> By Using Our Site You Accept These Terms of Use </p>
+        </div>
+        
+        <div class="policy-content">
+            <p> Please read these Terms of Use carefully and ensure that you understand them before using Our Site. These Terms of Use, together with any other documents referred to in these terms (unless otherwise stated), set out the terms of use governing Your use of this website at www.247directskips.com </p>
+            <p> Your agreement to comply with these Terms of Use is indicated by your use of Our Site. If you do not agree to these Terms of Use, You must stop using Our Site immediately. </p>
+
+            <h5> Brexit and EU Law </h5>
+            <p> It is acknowledged by both parties that the European Union (Withdrawal) Act 2018 section 2 allows EU law, for example, the General Data Protection Regulation 2018 (GDPR) to be retained in its entirety and have effect in UK domestic law after the UK has left the EU, but also means that the UK can amend or repeal any law in the future after the withdrawal date. If due to the UK exiting the European Union and a clause or condition in this contract becomes invalid or it conflicts with a law enacted after the transition period on the 31st December 2020, the invalid clause can be either cut from this agreement leaving the rest of the agreement valid and unaffected if the law has been repealed or it can amend the clause to bring it in line with current UK law reflecting the changes. </p>
+            <h5> Your Information </h5>
+            <p> To access this website and use some of the resources it offers, we may ask You to provide details or information to be able to register for or buy Products. It is a condition of use that all the information You give us is accurate and true and current. You acknowledge and agree that any information You give us to register is regulated by our Privacy Policy. You also agree to all actions we take concerning Your information according to that Privacy Policy. Please read our Privacy Policy for more information on Your personal data. </p>
+            <h5> Our Information  </h5>
+            <p> Our Site is operated by 24/7 Direct Skips Ltd. We are a limited company registered in England and Wales under company number 13294579. Our registered address is 20-22 Wenlock Rd, London N1 7GU </p>
+            <h5> Cookies </h5>
+            <p> Our website uses cookies; by using our website or agreeing to these Terms and Conditions, You consent to our use of cookies following the terms of our Privacy and Cookie Policy. </p>
+
+            <h5> Background </h5>
+            <p> 24/7 Direct Skips Ltd operate a skip source and supply business – meaning that they organise local skip Suppliers to deliver a skip to a Customer’s address. The Customer who needs a skip can contact 24/7 Direct skips which can save time and money by ordering from one central business.  </p>
+        </div>
+
+        <div class="policy-content">
+            <h4> 1.  Definitions and Interpretation </h4>
+
+            <ul class="terms-list1">
+               <li> <b> 1.1 </b> 1.1.  In these Terms of Use, unless the context otherwise requires, the following expressions have the following meanings: <br/> 
+“Business User” means a non-consumer and individual or entity using our Services for their business. <br/> 
+“Customer” means any user or visitor to this website who uses the “Service” <br/>  
+“Content” means any and all text, images, audio, video, scripts, code, software, databases, and any other form of information capable of being stored on a computer that appears on, or forms part of, Our Site; <br/>  
+”Service” or ”Services” mean the service provided by 24/7 Direct Skips Ltd of locating and sourcing skips for Customers. <br/> 
+”Service Provider” means 24/7 Direct Skips Ltd who source the skips for Customers. <br/>  
+“Site”   means this website operated and maintained by 24/7 Direct Skips Ltd <br/>  
+“Supplier” means the individual or entity who runs a skip company and hires delivers the skip to the Customer. <br/>  
+“User” “You”, and “Your” means site visitors, Customers, and any other users of the site. <br/>   
+“We”, “Us”, and “Our” means 24/7 Direct Skips Ltd who own, run and maintain this website. <br/>  
+“24/7 Direct Skips Ltd” means the company that owns and runs this website and provides the Service.
+ </li>
+            </ul>
+            </div>
+
+
+            <div class="policy-content">
+            <h4> 2.  Access to Our Site </h4>
+            <ul class="terms-list1">
+               <li> <b> 2.1 </b>    Access to Our Site is free of charge. </li>
+               <li> <b> 2.2 </b> We may suspend or discontinue Our Site (or any part of it) at any time. We do not guarantee that Our Site will always be available or that access to it will be uninterrupted. If We suspend or discontinue the Site (or any part of it), We will try to give You reasonable notice of the suspension or discontinuation. </li>
+               <li> <b> 2.3 </b>  To access or use our Site and use Our Services, You must be 18 years of age or older and have the necessary power and authority to enter into these Terms and Conditions. Children and minors under the age of 18 are prohibited from using the Site.  </li>
+               <li> <b> 2.4 </b>  Information provided on the Site and related to our Services or their description or any other information is subject to change. 24/7 Direct Skips Ltd gives no guarantee that the information or Content provided, regardless of its source, is accurate, complete, reliable, current, or error-free. We disclaim all liability for any inaccuracy, error, or incompleteness in the Content. </li>
+            </div>
+
+
+            <div class="policy-content">
+            <h4> 3.  Our Services </h4>
+            <ul class="terms-list1">
+               <li> <b> 3.1 </b> You acknowledge and agree that 24/7 Direct skips are an independent brokerage or agency and as such are not a skip hire company hiring directly to Customers, we act on behalf of the skip hirer when arranging skips for You.    </li>
+               <li> <b> 3.2 </b> Our Services are subject to acceptance of Your order or requests. We reserve the right to refuse any order, person, or entity, without having to give a reason for doing so. Orders cannot be accepted until payment has been processed and received. We may at any time change or discontinue any aspect or feature of our Services, subject to us fulfilling our previous responsibilities. Please note that acceptance of Your offer is only made when the skip is sent to you by the Supplier.  </li>
+               <li> <b> 3.3 </b>  As part of our duty of care and due diligence, we ensure that we only network reputable Suppliers that are both appropriately insured and have a valid waste carriers license.      </li>
+               <li> <b> 3.4 </b>  All Suppliers we use are independent companies and are not partners or affiliates of 24/7 Direct Skips Ltd. We only source the best-priced skip company in Your area as part of our Service and the Supplier hires and delivers the skip for You under Your instructions. Therefore, we are not liable or responsible for any damage, injury, harm to You or Your property either during delivery or collection of the skip which was caused by the Supplier and You also acknowledge and agree that 24/7 Direct Skips Ltd will not be responsible or held liable for any resulting costs or actions caused by any third parties or Suppliers and;    </li>
+               <li> <b> 3.5 </b>  You agree to report any such incident occurrence directly to the supplier who delivered Your skip.    </li>
+            </div>
+
+
+             <div class="policy-content">
+            <h4> 4.  Changes to Our Site </h4>
+            <ul class="terms-list1">
+               <li> <b> 4.1 </b>    We may alter and update our Site (or any part of it) at any time.     </li>
+            </div>
+
+
+            <div class="policy-content">
+            <h4> 5.  Changes to these Terms of Use </h4>
+            <ul class="terms-list1">
+               <li> <b> 5.1 </b>    We may alter these Terms of Use at any time.     </li>
+               <li> <b> 5.2 </b>  If any part of the current version of these Terms of Use conflicts with any previous version(s), the current version shall prevail unless We explicitly state otherwise.   </li>
+            </div>
+
+            <div class="policy-content">
+            <h4> 7.  Payment and Charges </h4>
+            <ul class="terms-list1">
+               <li> <b> 7.1 </b> You agree to pay all costs and charges related to the Services You have ordered set out on our Website and to use the appropriate payment facilities and secure processes presented on our Site operated by Stripe Ltd and that You agree to read and comply with their terms and conditions relating to payments.    </li>
+               <li> <b> 7.2 </b> Prices and costs may change from time to time in the normal course of business practice.   </li>
+            </div>
+
+
+
+             <div class="policy-content">
+            <h4> 8.  Invoices </h4>
+            <ul class="terms-list1">
+               <li> <b> 8.1 </b>  You agree to receive sales invoices electronically if applicable.    </li>
+            </div>
+
+
+            <div class="policy-content">
+            <h4> 9.  International Users </h4>
+            <ul class="terms-list1">
+               <li> <b> 9.1 </b>    Our Site is intended for users in the United Kingdom only. We do not warrant or represent that Our Site or its Content is available in other locations or are suitable for use in other locations.  </li>
+            </div>
+
+
+            <div class="policy-content">
+            <h4> 6.  Lawful Purposes </h4>
+            <ul class="terms-list1">
+               <li> <b> 6.1 </b>  You may use our Site for lawful purposes only. You agree to be financially responsible for all purchases made by You or someone acting on Your behalf through the Site.  </li>
+               <li> <b> 6.2 </b>  You agree to use the Site for legitimate, purposes only. You shall not post or transmit any material on the site or in a way that violates or infringes the rights of others.  Or which is threatening, abusive, racist, sexist, discriminatory, defamatory, libellous, invasive of privacy or publicity rights, vulgar, obscene, profane, or otherwise objectionable, contains injurious formulas, recipes, or instructions, which encourages conduct that would constitute a criminal offence, give rise to civil liability, or otherwise violate any law. </li>
+               <li> <b> 6.3 </b>  You must ensure that You comply fully with any local, national, or international laws and regulations that apply; </li>
+               <li> <b> 6.4 </b>  You must not use Our Site in any way, or for any purpose, that is unlawful or fraudulent; and </li>
+               <li> <b> 6.5 </b>  You must not use Our Site to knowingly send, upload, or in any other way transmit data that contains any form of virus or other malware or any other code designed to adversely affect computer hardware, software, or data of any kind. </li>
+            </div>
+
+
+
+            <div class="policy-content">
+            <h4> 7.  Intellectual Property Rights  </h4>
+            <ul class="terms-list1">
+               <li> <b> 7.2 </b>    Our Site contains intellectual property owned by 24/7 Direct Skips Ltd including trademarks, copyrights, proprietary information, and other intellectual property. You may not modify, publish, transmit, participate in the transfer or sale of, create derivative works from, distribute, display, reproduce or perform, or in any way exploit in any format whatsoever any of the Site Content or intellectual property, in whole or in part, without our prior written consent. We reserve the right to immediately remove You from the Site if You are caught violating this intellectual property policy.  </li>
+               <li> <b> 7.2  </b>   You or any other third party may not use our trademarks in connection with any Products or Services in any way that may confuse customers or the public at large or in any way that harms Our reputation or standing.  </li>
+            </div>
+
+
+
+            <div class="policy-content">
+            <h4> 8.  Data Protection  </h4>
+            <ul class="terms-list1">
+               <li> <b> 8.1 </b>  We acknowledge that we may have access to certain information and personal data which You have given us or, for example, via cookies for the purposes set out in this Agreement to run and operate the Service which may include any data accessible to 24/ Direct Skips Ltd, its employees, or representatives about Your financial transactions. We will not store, copy, analyse, monitor, or otherwise use that data except for the purposes set out in this Agreement for Your benefit.  We will comply fully with all applicable laws, regulations, and government orders relating to personally identifiable information and data privacy concerning any such data that we receive or have access to under these Terms of Use or in connection with the performance of any Services.  We will otherwise protect Personal Data and will not use, disclose, or transfer across borders such data except as necessary to perform under these Terms of Use or as authorised by the data subject or following applicable law.  To the extent that we receive personal data related to the performance of the Service, we will protect Your privacy and legal rights. More information about Our responsibilities toward your data protection and privacy can be found in Our Privacy Policy.  </li>
+            </div>
+
+
+             <div class="policy-content">
+            <h4> 9.  Third-Party Links </h4>
+            <ul class="terms-list1">
+               <li> <b> 9.1 </b>    Our Site contains links to third-party websites and resources. You acknowledge and agree that We are not responsible or liable for the availability, accuracy, content, or policies of third-party websites or resources. Links to such websites or resources do not imply any endorsement by or affiliation with Us. You acknowledge sole responsibility for and assume all risk arising from Your use of any such websites or resources.  </li>
+            </div>
+
+
+             <div class="policy-content">
+            <h4> 10. Termination </h4>
+            <ul class="terms-list1">
+               <li> <b> 10.1 </b>  You agree that we can terminate Your use or access to this Site and Services at any time without notice if You violate any of these terms and Conditions.   </li>
+               <li> <b> 10.2 </b>  This agreement can be terminated at any time for any reason by mutual agreement.  </li>
+            </div>
+
+
+
+             <div class="policy-content">
+            <h4>  11.   Refunds and Cancellations </h4>
+            <ul class="terms-list1">
+               <li> <b> 11.1.  </b>    If for any reason in performing Our Services We cannot fulfil Your requested skip size or delivery date, We will inform You as soon as possible and try to offer an alternative solution. If You do not accept this, then We will offer You a FULL refund. Moreover, if the skip/service received is not as described or requested, then You will also have the right to request a full refund so long as we are notified within 24 Hours of the skip being delivered. Before any refund will be given, You will have to provide details and /or evidence as to the dissatisfactory skip/service. We will then seek to clarify this with the Supplier. This will be paid back to the same credit/debit card for which the original purchase was made.  </li>
+               <li> <b>  11.2. </b>    Subject to Clause 11.3. below, If You are a Consumer and change Your mind about the Services, You have 14 days after the date of the Order Confirmation to change Your mind and cancel the Agreement.  However, once We have completed the Services and You have used the skip even partially You cannot change Your mind, even if the 14 day period is still running.  If You cancel after the skip has been delivered or costs have been incurred You must pay Us for the Services provided up until the time You told Us You have changed Your mind.  </li>
+               <li> <b> 11.3. </b>  If You ask Us to deliver Your skip during the 14 day period You agree to waive your right to a full refund and may only get a proportion of Your payment as described in Clause 11.2. above.  </li>
+               <li> <b> 11.4.  </b>    You must inform us in writing if You wish to exercise your right and withdraw from this contract subject to Clause 11.2. above.  </li>
+               <li> <b>  11.5. </b>    This Clause does not apply to Business Customers. </li>
+            </div>
+
+
+
+             <div class="policy-content">
+            <h4>  12.   Indemnification </h4>
+            <ul class="terms-list1">
+               <li> <b> 12.1.  </b>    You agree to pay Us for any losses, damage, settlements, liabilities, costs, charges, assessments, and expenses, as well as third party claims and causes of action, including, without limitation, lawyer’s fees, arising from any breach by You of any of these Terms of Use or any use by You of the Site. You will provide Us with any help that We might ask for in connection with any such defence without any charge including, without limitation, giving Us such information, documents, records, and reasonable access as We see necessary. You will not resolve any third-party claim or reject any defence without our previous written permission.   </li>
+            </div>
+
+
+
+             <div class="policy-content">
+            <h4> 13. Disclaimers  </h4>
+            <ul class="terms-list1">
+               <li> <b> 13.1  </b>  Nothing on Our Site constitutes professional advice on which You should rely.   </li>
+               <li> <b> 13.2  </b>     We make reasonable efforts to ensure that Our Content on Our Site is complete, accurate, and up to date, but to the extent permitted by law, We make no warranties, representations, or guarantees (express or implied) that this will always be the case.  </li>
+            </div>
+
+
+             <div class="policy-content">
+            <h4>  14.   Our Liability </h4>
+            <ul class="terms-list1">
+               <li> <b> 14.1  </b>  Nothing in these Terms of Use excludes or restricts Our liability for fraud or fraudulent misrepresentation, for death or personal injury resulting from negligence, or for any other forms of liability which cannot be lawfully excluded or restricted.  </li>
+               <li> <b> 14.2  </b>  You acknowledge and agree that we are not the skip hirer but a broker who arranges Your skip for You and therefore, all liability for loss or damage concerning skip hire is on the Supplier. </li>
+               <li> <b> 14.3  </b>  If You are a business user (i.e. You are using Our Site in the course of business or for commercial purposes), to the fullest extent permissible by law, We accept no liability for any loss or damage, whether foreseeable or otherwise, in contract, tort (including negligence), for breach of statutory duty, or otherwise, arising out of or in connection with the use of (or inability to use) Our Site or the use of or reliance upon any Content included on Our Site. </li>
+               <li> <b> 14.4  </b>  If You are a business user, We accept no liability for loss of profit, sales, business, or revenue; loss of business opportunity, goodwill, or reputation; loss of anticipated savings; business interruption; or for any indirect or consequential loss or damage. </li>
+               <li> <b> 14.5  </b>  You agree that in no way will we be liable for direct, indirect, incidental, consequential or any other remedies as a result of using Our Services. Additionally, We are not liable for damages or remedies for website failure, error, omission, attack by hackers or pirates, interruption, delay in operation or transmission of videos, computer virus, or system failure; third-party theft of, destruction of or unauthorised access or alteration or use of Your information or personal data (subject to GDPR or the Data Protection Act 2018 if applicable), whether We were negligent or not. This applies even if 24/7 Direct Skips Ltd has been advised of the possibility of something or could have foreseen loss or damage.  </li>
+               <li> <b> 14.6  </b> We are not liable for any delay or failure to comply with our obligations connected with our Services or this Site if the delay or failure was beyond our reasonable control.   </li>
+            </div>
+
+
+
+             <div class="policy-content">
+            <h4>  15.   Events or circumstances beyond our reasonable control </h4>
+            <ul class="terms-list1">
+               <li> <b> 15.1  </b>  If We are prevented or delayed from complying with Our obligations under these Terms by anything You (or anyone acting on Your behalf) does or fails to do or due to events or circumstances beyond Our reasonable control, Our inability or delay in performing Our obligations will not be in breach of this agreement. Examples of such events and circumstances, but not limited to, include fire, flood and other acts of God, strikes, trade disputes, lockouts, restrictions of imports or exports, riot, accident, disruption to energy supplies, lockdowns, pandemics, civil commotion, acts of terrorism or war.  </li>
+            </div>
+
+
+             <div class="policy-content">
+            <h4>  16.   Viruses, Malware, and Security </h4>
+            <ul class="terms-list1">
+               <li> <b>  16.1  </b>  We exercise reasonable skill and care to ensure that Our Site is secure and free from viruses and malware; however, We do not guarantee that this is the case.  </li>
+               <li> <b>  16.2 </b>   You are responsible for protecting Your hardware, software, data, and other material from viruses, malware, and other internet security risks. </li>
+               <li> <b>  16.3  </b>    You must not attempt to gain unauthorised access to any part of Our Site, the server on which Our Site is stored, or any other server, computer, or database connected to Our Site.  </li>
+            </div>
+
+              <div class="policy-content">
+            <h4> 17. Notices  </h4>
+            <ul class="terms-list1">
+               <li> <b>  17.1.     </b> If We have Your contact details, We may send you important notices by email from time to time. Such notices may relate to matters including, but not limited to, changes to Our Site or to these Terms of Use, or to Your Account. </li>
+               <li> <b> 17.2  </b>     All notices, requests, demands, and other communications under this Agreement must be in writing and sent by email to:  <br/> Email: <br/> Address: </li>
+            </div>
+
+
+              <div class="policy-content">
+            <h4>  18.   Entire Agreement  </h4>
+            <ul class="terms-list1">
+               <li> <b> 18.1  </b>     These Terms and Conditions including our Privacy and Cookie Policy and any attachments are the whole agreement between 24/7 Direct Skips Ltd and You and cancels all other verbal or written understandings concerning this agreement that were made outside this agreement. 24/7 Direct Skips state that they are not liable for any misrepresentations they made before and outside this agreement.  </li>
+            </div>
+
+
+              <div class="policy-content">
+            <h4> 19. Assignment  </h4>
+            <ul class="terms-list1">
+               <li> <b>  19.1 </b> 1 We may transfer (assign) Our obligations and rights under these Terms of Use to a third party (this may happen, for example, if We sell Our business). If this occurs, We will inform You in writing. Your rights under these Terms of Use will not be affected and Our obligations under these Terms of Use will be transferred to the third party who will remain bound by them.  </li>
+            </div>
+
+
+              <div class="policy-content">
+            <h4>  20.   Severability  </h4>
+            <ul class="terms-list1">
+               <li> <b> 20.1  </b>  If an appropriate court or arbitrator decides that a clause or condition in this contract is invalid or it conflicts with a law, the invalid clause can be cut from this agreement leaving the rest of the agreement valid and unaffected.  </li>
+            </div>
+
+              <div class="policy-content">
+            <h4> 21. Reliance on these Terms  </h4>
+            <ul class="terms-list1">
+               <li> <b> 21.1  </b>     We intend to rely on these written Terms and any document expressly referred to in them about the subject matter of any agreement between us. We and You will be legally bound by these Terms.  </li>
+            </div>
+
+
+              <div class="policy-content">
+            <h4> 22. Law and Jurisdiction  </h4>
+            <ul class="terms-list1">
+               <li> <b>  22.1 </b>  You agree that any dispute or claim arising out of this agreement or in connection with its subject matter or formation, including non-contractual disputes or claims, will be governed and interpreted according to English Law in English. You also agree that English courts have exclusive jurisdiction except for negotiation adjudication and mediation described in Clause 28 below.   </li>
+            </div>
+
+
+              <div class="policy-content">
+            <h4>  23.   Dispute Resolution </h4>
+            <ul class="terms-list1">
+               <li> <b>  23.1 </b>  Any dispute relating to this Agreement, which cannot be resolved by negotiation between the parties within 14 days of either party giving notice to the other party that a dispute has arisen, can be submitted to mediation by a mediator mutually chosen by the Parties and that the mediation or negotiation may be conducted online in English using an accredited mediation service. The initial Mediation cost only is to be shared equally by both Parties. Failing settlement of that dispute within 14 days, the dispute shall be submitted by any party for a final decision to an English court which will have exclusive jurisdiction.  </li>
+            </div>
+
+        
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+
       

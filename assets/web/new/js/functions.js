@@ -1,12 +1,13 @@
  $(document).ready(function(){
 
 
+    var host = $("meta[name='host']").attr("content");
  	var val1 = 0;
 
  	$('.navbar-handler').children("img").click(function(){
 
  		if(val1==0){
- 			$(this).attr("src","images/cross.png")
+ 			$(this).attr("src",host+"/assets/web/new/images/cross.png")
  		$('.navbar-custom').slideToggle()
 
  		val1 = 1;
@@ -14,7 +15,7 @@
  	}
  	else {
  		$('.navbar-custom').slideToggle()
- 		$(this).attr("src","images/hamburger.png")
+ 		$(this).attr("src",host+"/assets/web/new/images/hamburger.png")
  		val1 = 0;
 
  	}

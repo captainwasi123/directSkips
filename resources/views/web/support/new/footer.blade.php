@@ -17,10 +17,10 @@
                <ul>
                   <li> <a href="{{URL::to('/about')}}"> About Us </a></li>
                   <li> <a href="{{URL::to('/contact')}}"> Contact Us </a></li>
-                  <li> <a href="javascript:void(0)"> Terms & Conditions </a></li>
-                  <li> <a href="javascript:void(0)"> Terms of Use </a></li>
-                  <li> <a href="javascript:void(0)"> Privacy Policy </a></li>
-                  <li> <a href="javascript:void(0)"> Cookie Policy </a></li>
+                  <li> <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-type3"> Terms & Conditions </a></li>
+                  <li> <a href="javascript:void(0)" data-toggle="modal" data-target="#largeModal-7"> Terms of Use </a></li>
+                  <li> <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-type4"> Privacy Policy </a></li>
+                  <li> <a href="javascript:void(0)" data-toggle="modal" data-target="#largeModal-6"> Cookie Policy </a></li>
                </ul>
             </div>
          </div>

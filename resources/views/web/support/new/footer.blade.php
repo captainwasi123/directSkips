@@ -44,7 +44,7 @@
             </div>
             <div class="footer-social">
                <h5> FOLLOW US ON </h5>
-               <a href=""> <img src="{{URL::to('/assets/web/new')}}/images/fb-icon.png"> </a>
+               <a href="https://www.facebook.com/247-Direct-Skips-110573287782716"> <img src="{{URL::to('/assets/web/new')}}/images/fb-icon.png"> </a>
             </div>
          </div>
       </div>

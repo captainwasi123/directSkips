@@ -52,6 +52,9 @@
                     <div class="col-md-12" id="pybtn">
                       <button class="btn btn-primary btn-block">Pay £{{$amount}}</button>
                     </div>
+                    <div id="pybtn2">
+                        
+                    </div>
                 </form>
             </div>
           </div>
@@ -97,9 +100,10 @@
                 )
                 .then(function(result){
                     if(result.error){
-                        document.getElementById("pybtn").innerHTML = '<div class="alert alert-danger"><strong>Error.!</strong> Payment Intents Confirmation failed.</div>';
+                        document.getElementById("pybtn2").innerHTML = '<br><div class="alert alert-danger"><strong>Error.!</strong> Please Enter valid Card Information.</div>';
                         console.log(result.error.message);
                     }else{
+                        document.getElementById("pybtn2").innerHTML = '';
                         var xhttp = new XMLHttpRequest();
                         xhttp.onreadystatechange = function() {
                             if (this.readyState == 4 && this.status == 200) {

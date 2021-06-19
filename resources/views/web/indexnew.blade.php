@@ -43,7 +43,7 @@
                </div>
                <div class="points-list">
                 <h4> <span> CALL US NOW ON </span> <span> <a href="tel:03309125247" class="col-orange"> 0330 9125 247 </a> </span> </h4>
-                  <p> next day delivery <img src="{{URL::to('/assets/web/new')}}/images/tick-icon.jpg"> </p>
+                  <p> next day delivery* <img src="{{URL::to('/assets/web/new')}}/images/tick-icon.jpg"> </p>
                   <p> Competitive price <img src="{{URL::to('/assets/web/new')}}/images/tick-icon.jpg"> </p>
                   <p> Nationwide coverage <img src="{{URL::to('/assets/web/new')}}/images/tick-icon.jpg"> </p>
                   <p> Skip hire permits <img src="{{URL::to('/assets/web/new')}}/images/tick-icon.jpg"> </p>

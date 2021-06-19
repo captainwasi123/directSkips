@@ -100,7 +100,7 @@
                 )
                 .then(function(result){
                     if(result.error){
-                        document.getElementById("pybtn2").innerHTML = '<br><div class="alert alert-danger"><strong>Error.!</strong> Please Enter valid Card Information.</div>';
+                        document.getElementById("pybtn2").innerHTML = '<br><div class="alert alert-danger"><strong>Error!</strong> Please Enter valid Card Information.</div>';
                         console.log(result.error.message);
                     }else{
                         document.getElementById("pybtn2").innerHTML = '';

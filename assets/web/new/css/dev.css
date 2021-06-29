@@ -63,16 +63,25 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%) !important;
 }
-
+.ui-datepicker td {
+    padding: 4px !important;
+}
+a.ui-state-default {
+    font-weight: 600 !important;
+    background-color: #e9e9e900 !important;
+    border-color: #fff !important;
+}
 .ui-state-disabled.undefined > span {
-    background-color: #fcb81c;
-    color: #940e0eeb;
+    background-color: #e9e9e900;
+    color: #000000;
+    border-color: #fff !important;
 }
 .ui-state-disabled.undefined > span:hover {
     cursor: no-drop;
 }
-.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
-    opacity: 1 !important;
+a.ui-state-default.ui-state-active {
+    background-color: #424242d9 !important;
+    border-color: #2b2b2b !important;
 }
 .ui-datepicker-unselectable.ui-state-disabled.undefined.ui-datepicker-today .ui-state-default {
     background-color: #fff93abf;

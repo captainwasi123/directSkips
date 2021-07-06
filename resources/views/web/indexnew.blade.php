@@ -35,7 +35,7 @@
                </div>
                <div class="use-info-text">
                   <h4> QUICK & EASY BOOKING PROCESS </h4>
-                  <p> Here at 24/7 Direct Skips, we like to keep things simple! That is why we have developed a safe and easy-to-follow booking system that will allow our customers to Select, Confirm and Pay for their skip in just a few minutes.  </p>
+                  <p> Here at 24/7 Direct Skips, we like to keep things simple! That is why we have developed a safe and easy-to-follow booking system that will allow our customers to select, confirm and pay for their skip in just a few minutes.  </p>
                   <p> All you need to do is simply <em> "Enter Your Postcode" </em> and with just a few clicks, you let us know which skip size you require, what type of waste you have to dispose of and the date you would like the skip delivered. We will then arrange everything for you - what’s not to like about that? </p>
                </div>
                <div class="truck-image">

@@ -26,9 +26,11 @@
                 <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 order-lg-1">
                 <div class="skip-textual">
                     <h4> 4yd Skip <br/> 
-<span> (3.2 ft x 6.4 ft x 4.7 ft*) </span>  </h4>
-<h5> Ideal for garden or garage clear-outs. Small Household waste. <br/> <b>   30-40 Bin Bags    </b>
- </h5>
+                    <span> (3.2 ft x 6.4 ft x 4.7 ft*) </span>  </h4>
+                    <h5> 
+                        Ideal for garden or garage clear-outs. Small Household waste. <br/> <b>   30-40 Bin Bags    </b>
+                    </h5>
+                    <a href="{{URL::to('/')}}" class="btn btn-default">Book Now</a>
                 </div>
                 </div>
                 
@@ -49,6 +51,7 @@
                     <h4> 6yd Skip <br/> <span> (4.0 ft x 8.8 ft x 5.1 ft*)  </span>  </h4>
 <h5> Ideal for builder’s waste. General Household waste or Inert/Brick Rubble. <br/> <b>   50-60 Bin Bags   </b>
  </h5>
+                    <a href="{{URL::to('/')}}" class="btn btn-default">Book Now</a>
                 </div>
                 </div>
                 
@@ -70,6 +73,7 @@
 More suitable for heavier items/types of waste. (No Hardcore/Inert)  <br/> 
  <b>  60-80 Bin Bags </b>  
  </h5>
+                    <a href="{{URL::to('/')}}" class="btn btn-default">Book Now</a>
                 </div>
                 </div>
                 
@@ -91,6 +95,7 @@ More suitable for heavier items/types of waste. (No Hardcore/Inert)  <br/>
                     <h4> 12yd Skip <br/> <span> (5.6 ft x 12.2 ft x 5.9 ft*)  </span>  </h4>
 <h5> Perfect for large house clearances or larger commercial properties. <br/>
 (No Hardcore/Inert)   <br/>  <b>  100-120 Bin Bags </b>  </h5>
+                    <a href="{{URL::to('/')}}" class="btn btn-default">Book Now</a>
                 </div>
                 </div>
              

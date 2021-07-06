@@ -60,6 +60,14 @@
     font-weight: 600;
 }
 
+.btn-default {
+    border: 1px solid;
+}
+.btn-default:hover {
+    background-color: #eb7c32;
+    color: white;
+}
+
 /* ------------- */
 
 .poppin-font

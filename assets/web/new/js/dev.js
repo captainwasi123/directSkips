@@ -23,6 +23,10 @@
                 $('#next_1').css({display:'none'});
                 $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
+
+                var p = $("#steps_section #book_form");
+                 var offset = p.offset();
+                 window.scrollBy(offset.left, offset.top - 50);
             });
         });
 
@@ -38,6 +42,11 @@
                 $('#next_2').css({display:'none'});
                 $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
+
+
+                var p = $("#steps_section #book_form");
+                 var offset = p.offset();
+                 window.scrollBy(offset.left, offset.top - 150);
             });
         });
 
@@ -62,6 +71,11 @@
                     $('#steps_section #book_form').append(data);
                     $('.page-loader').css({display:'none'});
                     $('#t_postcode').val(postcode);
+
+
+                    var p = $("#steps_section #book_form");
+                     var offset = p.offset();
+                     window.scrollBy(offset.left, offset.top + 100);
                 });
             }
         });
@@ -99,6 +113,12 @@
                             $('#next_4').css({display:'none'});
                             $('#steps_section #book_form').append(data);
                             $('.page-loader').css({display:'none'});
+
+                            
+
+                            var p = $("#steps_section #book_form");
+                             var offset = p.offset();
+                             window.scrollBy(offset.left, offset.top + 100);
                         },
                         error: function (error) {
                             console.log(error);

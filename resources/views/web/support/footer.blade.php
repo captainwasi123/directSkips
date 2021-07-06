@@ -925,7 +925,8 @@ What are Cookies?
     </div>
 
 
-    <!-- Messenger Chat Plugin Code -->
+   
+<!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
@@ -936,6 +937,7 @@ What are Cookies?
       var chatbox = document.getElementById('fb-customer-chat');
       chatbox.setAttribute("page_id", "110573287782716");
       chatbox.setAttribute("attribution", "biz_inbox");
+
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,

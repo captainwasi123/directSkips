@@ -735,7 +735,7 @@ input.postcode-field1 {
 }
 
 .skip-box.active {
-    border: 1px solid #eb7c32;
+    border: 2px solid #eb7c32;
 }
 
 .skip-box.active  h4 {

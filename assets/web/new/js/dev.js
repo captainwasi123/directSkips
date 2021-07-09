@@ -1,6 +1,14 @@
  $(document).ready(function(){
 
     'use strict'
+
+    var footerHeight = $(document).height() - 200;
+    if ($(window).width() < 768) {
+       footerHeight = $(document).height() - 1080
+    }
+    else {
+       footerHeight = $(document).height() - 200;
+    }
     $( "#del_date" ).datepicker();
     var host = $("meta[name='host']").attr("content");
  	$(document).on('change', '#t_dropoff', function(){
@@ -24,9 +32,7 @@
                 $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
 
-                var p = $("#steps_section #book_form");
-                 var offset = p.offset();
-                 window.scrollBy(offset.left, offset.top - 50);
+                scrollToDiv(2);
             });
         });
 
@@ -43,10 +49,7 @@
                 $('#steps_section #book_form').append(data);
                 $('.page-loader').css({display:'none'});
 
-
-                var p = $("#steps_section #book_form");
-                 var offset = p.offset();
-                 window.scrollBy(offset.left, offset.top - 150);
+                scrollToDiv(3);
             });
         });
 
@@ -72,10 +75,7 @@
                     $('.page-loader').css({display:'none'});
                     $('#t_postcode').val(postcode);
 
-
-                    var p = $("#steps_section #book_form");
-                     var offset = p.offset();
-                     window.scrollBy(offset.left, offset.top + 100);
+                    scrollToDiv(4);
                 });
             }
         });
@@ -115,10 +115,7 @@
                             $('.page-loader').css({display:'none'});
 
                             
-
-                            var p = $("#steps_section #book_form");
-                             var offset = p.offset();
-                             window.scrollBy(offset.left, offset.top + 100);
+                            scrollToDiv(5);
                         },
                         error: function (error) {
                             console.log(error);
@@ -284,4 +281,19 @@ function formatDate(date) {
     var curr_month = d.getMonth() + 1; //Months are zero based
     var curr_year = d.getFullYear();
     return curr_year + "-" + curr_month + "-" + curr_date;
+}
+
+ function scrollToDiv(i) {
+    var scrollTo = $(".step-wrapper:nth-child("+i+")");
+    var container = $('html, body');
+    // Calculating new position
+    // of scrollbar
+    var position = scrollTo.offset().top 
+        - container.offset().top 
+        + container.scrollTop();
+
+    // Animating scrolling effect
+    container.animate({
+        scrollTop: position
+    });
 }

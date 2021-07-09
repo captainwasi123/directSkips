@@ -67,6 +67,16 @@
     background-color: #eb7c32;
     color: white;
 }
+.colorBtn {
+    background-color: #eb7c32;
+    color: #fff;
+    border-color: #793f18;
+}
+.colorBtn:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
+}
 
 /* ------------- */
 

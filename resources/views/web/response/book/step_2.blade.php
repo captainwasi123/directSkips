@@ -1,5 +1,5 @@
 
-<div class="step-wrapper">
+<div class="step-wrapper" id="2">
    <div class="container">
       <div class="step-head">
          <h4> <b class="col-orange"> STEP 02 </b> SELECT THE TYPE OF WASTE <a data-toggle="modal" data-target="#modal-type2"  class="popup-icon1"> <i class="fa fa-info"> </i> </a> </h4>

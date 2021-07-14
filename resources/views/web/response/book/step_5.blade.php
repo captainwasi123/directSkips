@@ -1,5 +1,5 @@
 
-<div class="step-wrapper">
+<div class="step-wrapper" id="5">
    <div class="container">
       <div class="step-head">
          <h4> <b class="col-orange"> STEP 05 </b> ORDER PREVIEW   </h4>

@@ -283,17 +283,23 @@ function formatDate(date) {
     return curr_year + "-" + curr_month + "-" + curr_date;
 }
 
- function scrollToDiv(i) {
-    var scrollTo = $(".step-wrapper:nth-child("+i+")");
-    var container = $('html, body');
-    // Calculating new position
-    // of scrollbar
-    var position = scrollTo.offset().top 
-        - container.offset().top 
-        + container.scrollTop();
-
-    // Animating scrolling effect
-    container.animate({
-        scrollTop: position
+ function scrollToDiv(i) { 
+    
+    $('html, body').animate({
+        scrollTop: $("#"+i).offset().top
     });
+
+
+    // var scrollTo = $(".step-wrapper:nth-child("+i+")");
+    // var container = $('html, body');
+    // // Calculating new position
+    // // of scrollbar
+    // var position = scrollTo.offset().top 
+    //     - container.offset().top 
+    //     + container.scrollTop();
+
+    // // Animating scrolling effect
+    // container.animate({
+    //     scrollTop: position
+    // });
 }

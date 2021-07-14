@@ -5,7 +5,7 @@
    $count = empty($pricing->eight_yd) ? $count : $count+1;
    $count = empty($pricing->twelve_yd) ? $count : $count+1;
 @endphp
-<div class="step-wrapper">
+<div class="step-wrapper" id="3">
    <div class="container">
       <div class="step-head">
          <h4> <b class="col-orange"> STEP 03 </b> SELECT YOUR SKIP SIZE  </h4>

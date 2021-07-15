@@ -101,6 +101,8 @@ class webController extends Controller
                 'skip_size'         =>  $data->skip_size,
                 'delivery_date'     =>  date('d-M-Y', strtotime($data->delivery_date)),
                 'collection_date'   =>  date('d-M-Y', strtotime($data->collection_date)),
+                'net_price'             =>  empty($data->billing) ? '' : $data->billing->amount,
+                'vat_price'             =>  empty($data->billing) ? '' : $data->billing->vat_amount,
                 'price'             =>  empty($data->billing) ? '' : $data->billing->total_amount,
                 'comments'          =>  empty($data->details->comments) ? '-' : $data->details->comments,
                 'address'           =>  empty($data->details) ? '' : $data->details->address,

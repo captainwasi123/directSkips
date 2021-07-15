@@ -68,7 +68,7 @@ table{
         </tr>
         <tr>
             <th colspan="2">Price (including VAT)</th>
-            <td colspan="2">{{'£ '.number_format($price, 2)}}</td>
+            <td colspan="2">{{'£'.number_format($net_price, 2).' + vat @ '.number_format($vat_price, 2).' = £'.number_format($price, 2)}}</td>
         </tr>
         <tr>
             <th colspan="2">Delivery Instructions</th>

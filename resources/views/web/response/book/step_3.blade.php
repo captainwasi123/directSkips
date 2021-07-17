@@ -19,9 +19,9 @@
                @if(!empty($pricing->four_yd))
                   @php $vat_1 = ($pricing->four_yd/100)*$vat; @endphp
                   <div class="col-md-3 col-lg-3 col-sm-6 col-12">
-                     <div class="skip-box">
+                     <div class="skip-box active">
                         <label for="skip-type1">
-                           <input type="radio" name="skip_size" id="skip-type1" value="4 yd|{{number_format($pricing->four_yd, 2)}}|{{$vat_1}}|{{number_format($pricing->four_yd + $vat_1, 2)}}">
+                           <input type="radio" name="skip_size" id="skip-type1" value="4 yd|{{number_format($pricing->four_yd, 2)}}|{{$vat_1}}|{{number_format($pricing->four_yd + $vat_1, 2)}}" checked>
                            <h4> 4YD SKIP </h4>
                            <img src="{{URL::to('/assets/web/new')}}/images/skip-image.jpg">
                            <p> (3.2ft x 6.4ft x 4.7ft)* </p>
@@ -34,9 +34,9 @@
                @if(!empty($pricing->six_yd))
                   @php $vat_2 = ($pricing->six_yd/100)*$vat; @endphp
                   <div class="col-md-3 col-lg-3 col-sm-6 col-12">
-                     <div class="skip-box active">
+                     <div class="skip-box {{empty($pricing->four_yd) ? 'active' : ''}}">
                         <label for="skip-type2">
-                           <input type="radio" name="skip_size" id="skip-type2" value="6 yd|{{number_format($pricing->six_yd, 2)}}|{{$vat_2}}|{{number_format($pricing->six_yd + $vat_2, 2)}}" checked>
+                           <input type="radio" name="skip_size" id="skip-type2" value="6 yd|{{number_format($pricing->six_yd, 2)}}|{{$vat_2}}|{{number_format($pricing->six_yd + $vat_2, 2)}}" {{empty($pricing->four_yd) ? 'checked' : ''}}>
                            <h4> 6yd Skip </h4>
                            <img src="{{URL::to('/assets/web/new')}}/images/skip-image.jpg">
                            <p> (4.0ft x 8.8ft x 5.1 ft)* </p>
